@@ -13,7 +13,7 @@
     </section>
     <section class="container vh-100">
       <div class="row">
-        <div class="col-12 p-3 h2 text-center">This is my project.</div>
+        <div class="col-12 p-3 h2 text-center">My projects on Github.</div>
         <div class="col-12">
           <ul class="row list-unstyled">
             <li v-for="p in project" :key="p" class="m-auto m-sm-0 col-8 col-sm-6 col-md-4 col-lg-3 col-lg-2 py-2">
