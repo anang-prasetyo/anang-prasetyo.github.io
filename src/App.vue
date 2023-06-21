@@ -16,8 +16,8 @@
         <div class="col-12 p-3 h2 text-center">I'm great at.</div>
       </div>
       <div class="col-12">
-        <ul class="row list-unstyled">
-          <li v-for="s, i in skills.sort(filterUpStr).sort(filterDownInt)" :key="i" class="m-auto m-sm-0 col-6 col-sm-4 col-md-3 col-lg-2 py-2">
+        <ul v-if="newSkills" class="row list-unstyled">
+          <li v-for="s, i in newSkills" :key="i" class="m-auto m-sm-0 col-6 col-sm-4 col-md-3 col-lg-2 py-2">
             <div class="my-2 d-flex flex-column align-items-center justify-content-center gap-2 p-3 skill">
               <div class="skill-logo"></div>
               <div class="">{{ s.name }}</div>
@@ -33,8 +33,8 @@
       <div class="row">
         <div class="col-12 p-3 h2 text-center">My projects on Github.</div>
         <div class="col-12">
-          <ul class="row list-unstyled">
-            <li v-for="p in project.sort(filterUpStr)" :key="p" class="m-auto m-sm-0 col-8 col-sm-6 col-md-4 col-lg-3 py-2">
+          <ul v-if="newProject" class="row list-unstyled">
+            <li v-for="p in newProject" :key="p" class="m-auto m-sm-0 col-8 col-sm-6 col-md-4 col-lg-3 py-2">
               <div class="my-2 project">
                 <div class="project-thumb"></div>
                 <div class="p-2">
@@ -68,7 +68,9 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
+import { onMounted, ref } from "vue";
+const newProject = ref()
+const newSkills = ref()
 
 const project = ref([
   {
@@ -169,6 +171,10 @@ let filterUpStr = function(a,b) {
 let filterDownInt = function(a,b) {
   return b.level - a.level
 }
+onMounted(() => {
+  newSkills.value = skills.value.sort(filterUpStr).sort(filterDownInt)
+  newProject.value = project.value.sort(filterUpStr)
+})
 </script>
 
 <style lang="scss" scoped>
