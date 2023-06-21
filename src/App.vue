@@ -17,7 +17,7 @@
       </div>
       <div class="col-12">
         <ul class="row list-unstyled">
-          <li v-for="s, i in skills" :key="i" class="m-auto m-sm-0 col-6 col-sm-4 col-md-3 col-lg-2 py-2">
+          <li v-for="s, i in skills.sort(filterUpStr).sort(filterDownInt)" :key="i" class="m-auto m-sm-0 col-6 col-sm-4 col-md-3 col-lg-2 py-2">
             <div class="my-2 d-flex flex-column align-items-center justify-content-center gap-2 p-3 skill">
               <div class="skill-logo"></div>
               <div class="">{{ s.name }}</div>
@@ -34,7 +34,7 @@
         <div class="col-12 p-3 h2 text-center">My projects on Github.</div>
         <div class="col-12">
           <ul class="row list-unstyled">
-            <li v-for="p in project" :key="p" class="m-auto m-sm-0 col-8 col-sm-6 col-md-4 col-lg-3 py-2">
+            <li v-for="p in project.sort(filterUpStr)" :key="p" class="m-auto m-sm-0 col-8 col-sm-6 col-md-4 col-lg-3 py-2">
               <div class="my-2 project">
                 <div class="project-thumb"></div>
                 <div class="p-2">
@@ -47,6 +47,16 @@
                 </div>
               </div>
             </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid bg-warning d-flex align-items-center justify-content-center py-4 sosmed-bg">
+      <div class="row h-100 w-100 d-flex justify-content-center align-items-center">
+        <div class="col p-3 h2 text-center">My contact.</div>
+        <div class="col">
+          <ul class="list-unstyled d-flex justify-content-center gap-2 m-auto sosmed">
+            <li v-for="s in 5" :key="s">{{ s }}</li>
           </ul>
         </div>
       </div>
@@ -144,6 +154,21 @@ const skills = ref([
     level: 3
   },
 ])
+let filterUpStr = function(a,b) {
+  let fa = a.name.toLowerCase(),
+      fb = b.name.toLowerCase();
+
+  if (fa < fb) {
+      return -1;
+  }
+  if (fa > fb) {
+      return 1;
+  }
+  return 0;
+}
+let filterDownInt = function(a,b) {
+  return b.level - a.level
+}
 </script>
 
 <style lang="scss" scoped>
@@ -153,12 +178,12 @@ const skills = ref([
   height: 9rem;
   width: 9rem;
   border-radius: var(--border-radius-1);
-  border: var(--border-black);
+  border: var(--border-black-2);
   box-shadow: var(--box-shadow-black);
 }
 .project{
   border-radius: var(--border-radius-1);
-  border: var(--border-black);
+  border: var(--border-black-2);
   box-shadow: var(--box-shadow-black);
   background: darkslateblue;
   color: var(--color-white);
@@ -188,8 +213,24 @@ const skills = ref([
     height: 3rem;
     width: 3rem;
     border-radius: var(--border-radius-1);
-    border: var(--border-black);
+    border: var(--border-black-2);
     box-shadow: var(--box-shadow-black);
+  }
+}
+.sosmed{
+  &-bg{
+    outline: var(--border-black-3); 
+    border-top: 3px solid white; 
+    border-bottom: 3px solid white;
+  } 
+  & li{
+    background: lavender;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+    border: var(--border-black-2);
+    box-shadow: var(--box-shadow-black);
+    text-align: center;
   }
 }
 </style>

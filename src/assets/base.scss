@@ -1,9 +1,14 @@
 :root{
   --color-black: black;
   --color-white: white;
-  --border-black: 2px solid var(--color-black);
+  --border-black-2: 2px solid var(--color-black);
+  --border-black-3: 3px solid var(--color-black);
+  --border-black-4: 4px solid var(--color-black);
   --box-shadow-black: 2px 2px var(--color-black);
   --border-radius-1: 5px; 
+}
+body{
+  color: black;
 }
 
 .min-vh-100{min-height: 100vh;}
