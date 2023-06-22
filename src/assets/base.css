@@ -1,0 +1,118 @@
+:root{
+  --color-black: black;
+  --color-white: white;
+  --border-black-2: 2px solid var(--color-black);
+  --border-black-3: 3px solid var(--color-black);
+  --border-black-4: 4px solid var(--color-black);
+  --box-shadow-black: 2px 2px var(--color-black);
+  --border-radius-1: 5px; 
+}
+
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-BlackMono.woff2) format('woff2'),
+  url(fonts/woff/PPAir-BlackMono.woff) format('woff'),
+  url(fonts/otf/PPAir-BlackMono.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-BlackMonoItalic.woff2) format('woff2'),
+  url(fonts/woff/PPAir-BlackMonoItalic.woff) format('woff'),
+  url(fonts/otf/PPAir-BlackMonoItalic.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-ExtraLight.woff2) format('woff2'),
+  url(fonts/woff/PPAir-ExtraLight.woff) format('woff'),
+  url(fonts/otf/PPAir-ExtraLight.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-ExtraLightMono.woff2) format('woff2'),
+  url(fonts/woff/PPAir-ExtraLightMono.woff) format('woff'),
+  url(fonts/otf/PPAir-ExtraLightMono.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-Medium.woff2) format('woff2'),
+  url(fonts/woff/PPAir-Medium.woff) format('woff'),
+  url(fonts/otf/PPAir-Medium.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-MediumItalic.woff2) format('woff2'),
+  url(fonts/woff/PPAir-MediumItalic.woff) format('woff'),
+  url(fonts/otf/PPAir-MediumItalic.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-MediumMono.woff2) format('woff2'),
+  url(fonts/woff/PPAir-MediumMono.woff) format('woff'),
+  url(fonts/otf/PPAir-MediumMono.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-MediumMonoItalic.woff2) format('woff2'),
+  url(fonts/woff/PPAir-MediumMonoItalic.woff) format('woff'),
+  url(fonts/otf/PPAir-MediumMonoItalic.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-SemiBold.woff2) format('woff2'),
+  url(fonts/woff/PPAir-SemiBold.woff) format('woff'),
+  url(fonts/otf/PPAir-SemiBold.otf) format('opentype');
+  
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/woff2/PPAir-SemiBoldMono.woff2) format('woff2'),
+  url(fonts/woff/PPAir-SemiBoldMono.woff) format('woff'),
+  url(fonts/otf/PPAir-SemiBoldMono.otf) format('opentype');
+  
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{
+  color: black;
+  font-family: 'Air Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.min-vh-100{min-height: 100vh;}
+.min-vw-100{min-width: 100vw;}

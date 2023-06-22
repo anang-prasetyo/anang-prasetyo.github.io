@@ -1,7 +1,7 @@
 <template>
   <main class="d-flex flex-column gap-5">
     <section class="container vh-100 d-flex align-items-center py-3">
-      <div class="row h-100 w-100 d-flex justify-content-center align-items-center flex-column flex-md-row gap-5">
+      <div class="row h-100 vw-100 d-flex justify-content-center align-items-center flex-column flex-md-row row-gap-5">
         <div class="col-12 col-md text-center text-md-start">
           <div class="h1 d-flex flex-column">Hi, I am Anang. <span style="color: blueviolet;">Fullstack Developer.</span></div>
           <div class="h3">Currently based in Surakarta, Indonesia.</div>
