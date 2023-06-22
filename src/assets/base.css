@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-BlackMono.woff2) format('woff2'),
   url(fonts/woff/PPAir-BlackMono.woff) format('woff'),
@@ -19,7 +19,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-BlackMonoItalic.woff2) format('woff2'),
   url(fonts/woff/PPAir-BlackMonoItalic.woff) format('woff'),
@@ -39,7 +39,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-ExtraLightMono.woff2) format('woff2'),
   url(fonts/woff/PPAir-ExtraLightMono.woff) format('woff'),
@@ -69,7 +69,7 @@
   font-style: italic;
 }
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-MediumMono.woff2) format('woff2'),
   url(fonts/woff/PPAir-MediumMono.woff) format('woff'),
@@ -79,7 +79,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-MediumMonoItalic.woff2) format('woff2'),
   url(fonts/woff/PPAir-MediumMonoItalic.woff) format('woff'),
@@ -99,7 +99,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'Air Sans';
+  font-family: 'Air Sans Mono';
   src: 
   url(fonts/woff2/PPAir-SemiBoldMono.woff2) format('woff2'),
   url(fonts/woff/PPAir-SemiBoldMono.woff) format('woff'),

@@ -53,7 +53,7 @@
     </section>
     <section class="container-fluid bg-warning d-flex align-items-center justify-content-center py-4 sosmed-bg">
       <div class="row h-100 w-100 d-flex justify-content-center align-items-center">
-        <div class="col p-3 h2 text-center">My contact.</div>
+        <div class="col p-3 h2 text-center m-auto">My contact.</div>
         <div class="col">
           <ul class="list-unstyled d-flex justify-content-center gap-2 m-auto sosmed">
             <li v-for="s in 5" :key="s">{{ s }}</li>
