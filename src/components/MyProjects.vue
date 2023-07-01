@@ -20,7 +20,7 @@
           <li class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
             <div class="my-2 project">
               <div class="project-thumb">
-                <img src="src/assets/img/Movies Collection.jpg">
+                <img src="https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/Movies%20Collection.jpg?raw=true">
               </div>
               <div class="py-2 px-3 d-flex justify-content-between align-items-center">
                 <div>
