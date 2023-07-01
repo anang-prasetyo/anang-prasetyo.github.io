@@ -18,13 +18,13 @@
         <div class="col p-3 h2 text-center m-auto">My contact.</div>
         <div class="col">
           <ul class="list-unstyled d-flex justify-content-center gap-2 m-auto sosmed">
-            <li v-for="s in 5" :key="s">{{ s }}</li>
+            <li v-for="s in sosmedKu" :key="s"><i :class="'bi-'+s.name"></i></li>
           </ul>
         </div>
       </div>
     </section>
     <footer class="footer">
-      <div class="container py-3 px-3">Is being developed by Anang in 2023</div>
+      <div class="container py-3 px-3 text-center">Is being developed by Anang in 2023</div>
     </footer>
   </main>
 </template>
@@ -32,8 +32,15 @@
 <script setup>
 import MySkills from "./components/MySkills.vue";
 import MyProjects from "./components/MyProjects.vue";
+import { ref } from "vue";
 
-
+const sosmedKu = ref([
+  { name:'github', link:"https://www.github.com/" },
+  { name:'whatsapp', link:"https://www.github.com/" },
+  { name:'instagram', link:"https://www.github.com/" },
+  { name:'linkedin', link:"https://www.github.com/" },
+  { name:'telegram', link:"https://www.github.com/" },
+])
 </script>
 
 <style lang="scss" scoped>
@@ -63,6 +70,13 @@ import MyProjects from "./components/MyProjects.vue";
     box-shadow: var(--box-shadow-black);
     text-align: center;
     padding: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .sosmed{
+    & li{
+      padding: 0px;
+    }
   }
 }
 </style>

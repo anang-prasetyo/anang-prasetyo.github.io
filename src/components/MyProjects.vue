@@ -1,10 +1,10 @@
 <template>
   <section class="container min-vh-100 d-flex align-items-center">
     <div class="row">
-      <div class="col-12 p-3 h2 text-center">My projects on Github.</div>
+      <div class="col-12 p-3 h2 text-center">My projects.</div>
       <div class="col-12">
         <ul v-if="newProject" class="row list-unstyled">
-          <!-- <li v-for="p in newProject" :key="p" class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
+          <li v-for="p in newProject" :key="p" class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
             <div class="my-2 project">
               <div class="project-thumb"></div>
               <div class="p-2">
@@ -16,7 +16,7 @@
                 </ul>
               </div>
             </div>
-          </li> -->
+          </li>
           <li class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
             <div class="my-2 project">
               <div class="project-thumb">
@@ -32,7 +32,7 @@
                   </ul>
                 </div>
                 <div>
-                  <button class="buttonku">Demo</button>
+                  <button class="buttonku" onclick="window.open('https://anang-prasetyo.github.io/movies-collection/', '_blank')">Demo</button>
                 </div>
               </div>
             </div>
@@ -76,6 +76,8 @@ onMounted(() => {
   &::after{
     content: '';
     background: lavender;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -115,6 +117,9 @@ onMounted(() => {
 @media (max-width: 576px) {
   .project-thumb{
     height: 15rem;
+  }
+  .buttonku{
+    padding: 5px 12px;
   }
 }
 </style>
