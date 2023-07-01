@@ -24,7 +24,7 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="container py-3">Is being developed by Anang in 2023</div>
+      <div class="container py-3 px-3">Is being developed by Anang in 2023</div>
     </footer>
   </main>
 </template>
@@ -62,6 +62,7 @@ import MyProjects from "./components/MyProjects.vue";
     border: var(--border-black-2);
     box-shadow: var(--box-shadow-black);
     text-align: center;
+    padding: 5px;
   }
 }
 </style>
