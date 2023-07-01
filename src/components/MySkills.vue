@@ -8,7 +8,7 @@
         <li v-for="s, i in newSkills" :key="i" class="col-5 col-sm-4 col-md-3 col-lg-2 py-2">
           <div class="my-2 d-flex flex-column align-items-center justify-content-center gap-2 p-3 skill">
             <div class="skill-logo">
-              <img :src="'src/assets/img/logo/'+ s.name +'.jpg'" :alt="s.name">
+              <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/logo/'+ s.name +'.jpg?raw=true'" :alt="s.name">
             </div>
             <div class="">{{ s.name }}</div>
             <div v-if="s.level == 5" class="text-primary">Excelent</div>
