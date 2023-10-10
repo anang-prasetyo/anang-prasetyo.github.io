@@ -4,35 +4,66 @@ export default function useDb(){
   const project = ref([
     {
       name: 'Movies Collection',
-      tag: ['']
+      tag: [''],
+      urlDemo: 'https://anang-prasetyo.github.io/movies-collection/',
+      url: 'Movies%20Collection',
+      isOpen: true
     },
     {
       name: 'Wedding Agency',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
     {
       name: 'Invitation',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
     {
       name: 'Coffee Shop',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
+    },
+    {
+      name: 'Simple Shopping Cart',
+      tag: [''],
+      urlDemo: 'https://anang-prasetyo.github.io/simple-shopping-cart/',
+      url: 'Simple%20Shopping%20Cart',
+      isOpen: true
     },
     {
       name: 'Bookstore',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
     {
       name: 'Online Shop',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
     {
       name: 'School Profile',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
     {
       name: 'Company Profile',
-      tag: ['']
+      tag: [''],
+      urlDemo: '',
+      url: '',
+      isOpen: false
     },
   ])
   const skills = ref([
