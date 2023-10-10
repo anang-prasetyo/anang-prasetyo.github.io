@@ -1,5 +1,8 @@
 <template>
-  <main class="d-flex flex-column gap-5">
+  <main class="d-flex flex-column gap-5 position-relative">
+    <div class="container py-2 position-absolute top-0 start-0 end-0">
+      <div class="alert alert-primary" role="alert">This site is currently undergoing maintenance, some features may not function properly</div>
+    </div>
     <section class="container vh-100 d-flex align-items-center py-3">
       <div class="row h-100 vw-100 d-flex justify-content-center align-items-center flex-column flex-md-row row-gap-5">
         <div class="col-12 col-md text-center text-md-start">

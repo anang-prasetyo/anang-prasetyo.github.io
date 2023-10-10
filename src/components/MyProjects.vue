@@ -6,7 +6,9 @@
         <ul v-if="newProject" class="row list-unstyled">
           <li v-for="p in newProject" :key="p" class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
             <div class="my-2 project">
-              <div class="project-thumb"></div>
+              <div class="project-thumb d-flex align-items-center">
+                <div class="p-2 w-100 text-center bg-body-secondary text-black border-top border-bottom border-2 border-black">Under maintenance</div>
+              </div>
               <div class="p-2">
                 <div>{{ p.name }}</div>
                 <ul class="list-unstyled project-tag d-flex gap-1">
@@ -33,6 +35,26 @@
                 </div>
                 <div>
                   <button class="buttonku" onclick="window.open('https://anang-prasetyo.github.io/movies-collection/', '_blank')">Demo</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
+            <div class="my-2 project">
+              <div class="project-thumb">
+                <img src="https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/Simple%20Shopping%20Cart.jpg?raw=true">
+              </div>
+              <div class="py-2 px-3 d-flex justify-content-between align-items-center">
+                <div>
+                  <div>Simple Shopping Cart</div>
+                  <ul class="list-unstyled project-tag d-flex gap-1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                  </ul>
+                </div>
+                <div>
+                  <button class="buttonku" onclick="window.open('https://anang-prasetyo.github.io/simple-shopping-cart/', '_blank')">Demo</button>
                 </div>
               </div>
             </div>
