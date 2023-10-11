@@ -24,7 +24,14 @@ export default function useDb(){
       isOpen: false
     },
     {
-      name: 'Decision Support System',
+      name: 'SPK-PDPS',
+      tag: [''],
+      urlDemo: 'https://spk-dosbingskripsi.web.app/',
+      url: 'SPK-PDPS',
+      isOpen: true
+    },
+    {
+      name: 'Image Poll',
       tag: [''],
       urlDemo: '',
       url: '',
