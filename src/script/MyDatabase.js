@@ -24,11 +24,18 @@ export default function useDb(){
       isOpen: false
     },
     {
-      name: 'Coffee Shop',
+      name: 'Decision Support System',
       tag: [''],
       urlDemo: '',
       url: '',
       isOpen: false
+    },
+    {
+      name: 'Almamater Coffee And Eatery',
+      tag: [''],
+      urlDemo: 'https://anang-prasetyo.github.io/almamater-coffee-and-eatery/',
+      url: 'Almamater%20Coffee%20And%20Eatery',
+      isOpen: true
     },
     {
       name: 'Simple Shopping Cart',
