@@ -1,7 +1,7 @@
 <template>
   <section class="mb-5">
     <div class="row m-0 border-top border-bottom border-black border-2">
-      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #F96269; padding: 0rem 5rem 0rem 5rem;">
+      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #fff; padding: 0rem 5rem 0rem 5rem;">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: black;">Fullstack Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
@@ -36,11 +36,11 @@
     <div class="row m-0 border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #0E182F; padding: 5rem;">
         <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">Selain menggunakan cara umum...</div>
-        <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%201-3x.png" alt="" class="img-fluid d-block mx-auto" style="height: 20rem;">
+        <img id="img2" src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%201-3x.png" alt="" class="img-fluid d-block mx-auto">
       </div>
       <div class="col-12 col-sm-6" style="background: #F96269; padding: 5rem;">
         <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
-        <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%2011-3x.png" alt="" class="img-fluid d-block mx-auto" style="height: 20rem;">
+        <img id="img2" src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%2011-3x.png" alt="" class="img-fluid d-block mx-auto">
       </div>
     </div>
   </section>
@@ -72,7 +72,7 @@ import ProgrammingLanguage from "../icons/ProgrammingLanguage.vue";
   justify-content: center;
   background-color: rgb(15, 15, 15);
   border: none;
-  color: white;
+  color: #F96269;
   font-weight: 600;
   gap: 8px;
   cursor: pointer;
@@ -85,7 +85,7 @@ import ProgrammingLanguage from "../icons/ProgrammingLanguage.vue";
     height: var(--width-btn);
     position: absolute;
     content: "";
-    background-color: white;
+    background-color: #F96269;
     border-radius: 50%;
     left: -100%;
     top: 0;

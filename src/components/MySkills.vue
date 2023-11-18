@@ -1,5 +1,5 @@
 <template>
-  <main class="border-2 border-top border-bottom border-black" style="background: #F96269;">
+  <main class="border-2 border-top border-bottom border-black py-5" style="background: #F96269;">
     <section class="container min-vh-100 d-flex flex-column justify-content-center">
       <div class="row">
         <div class="col-12 p-3 h2 text-center">Beberapa yang saya kuasai.</div>

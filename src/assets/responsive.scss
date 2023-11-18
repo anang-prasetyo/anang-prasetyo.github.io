@@ -5,11 +5,13 @@
   }
   #sticker{
     &1{
-      height: 4rem !important;
-      right: 5% !important;
+      right: 2% !important;
+      svg{
+        height: 4rem !important;
+      }
     }
     &2{
-      left: 5% !important;
+      left: 2% !important;
     }
   }
 }
@@ -33,6 +35,9 @@
   }
   #pad5{
     padding: 5rem;
+  }
+  #img2{
+    height: 20rem;
   }
 }
 
