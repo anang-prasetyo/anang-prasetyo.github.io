@@ -1,7 +1,7 @@
 <template>
   <section class="container min-vh-100">
     <div class="row">
-      <div class="col-12 p-3 h2 text-center">I'm great at.</div>
+      <div class="col-12 p-3 h2 text-center">Beberapa yang saya kuasai.</div>
     </div>
     <div class="col-12">
       <ul v-if="newSkills" class="row list-unstyled mb-0 d-flex justify-content-center">
@@ -11,9 +11,9 @@
               <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/logo/'+ s.name +'.jpg?raw=true'" :alt="s.name">
             </div>
             <div class="">{{ s.name }}</div>
-            <div v-if="s.level == 5" class="text-primary">Excelent</div>
-            <div v-else-if="s.level == 4" class="text-success">Good</div>
-            <div v-else-if="s.level == 3" class="text-warning">Average</div>
+            <div v-if="s.level == 5" class="text-primary">Mahir</div>
+            <div v-else-if="s.level == 4" class="text-success">Bagus</div>
+            <div v-else-if="s.level == 3" class="text-warning">Rata-rata</div>
           </div>
         </li>
       </ul>

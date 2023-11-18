@@ -4,7 +4,7 @@ export default function useDb(){
   const project = ref([
     {
       name: 'Movies Collection',
-      tag: [''],
+      tag: ['vuejs, bootstrap'],
       urlDemo: 'https://anang-prasetyo.github.io/movies-collection/',
       url: 'Movies%20Collection',
       isOpen: true
@@ -24,29 +24,36 @@ export default function useDb(){
       isOpen: false
     },
     {
-      name: 'SPK-PDPS',
-      tag: [''],
-      urlDemo: 'https://spk-dosbingskripsi.web.app/',
-      url: 'SPK-PDPS',
-      isOpen: true
-    },
-    {
-      name: 'Image Poll',
+      name: 'Karang Taruna',
       tag: [''],
       urlDemo: '',
       url: '',
       isOpen: false
     },
     {
+      name: 'SPK-PDPS',
+      tag: ['vuejs, bulma.io, firebase'],
+      urlDemo: 'https://spk-dosbingskripsi.web.app/',
+      url: 'SPK-PDPS',
+      isOpen: true
+    },
+    {
+      name: 'Pemilihan Logo',
+      tag: ['vuejs, bootstrap, firebase'],
+      urlDemo: 'https://pemilihan-logo.web.app/',
+      url: 'Pemilihan%20Logo',
+      isOpen: true
+    },
+    {
       name: 'Almamater Coffee And Eatery',
-      tag: [''],
+      tag: ['vuejs, locomotive scroll'],
       urlDemo: 'https://anang-prasetyo.github.io/almamater-coffee-and-eatery/',
       url: 'Almamater%20Coffee%20And%20Eatery',
       isOpen: true
     },
     {
       name: 'Simple Shopping Cart',
-      tag: [''],
+      tag: ['vuejs, bootstrap'],
       urlDemo: 'https://anang-prasetyo.github.io/simple-shopping-cart/',
       url: 'Simple%20Shopping%20Cart',
       isOpen: true
@@ -66,11 +73,11 @@ export default function useDb(){
       isOpen: false
     },
     {
-      name: 'School Profile',
-      tag: [''],
-      urlDemo: '',
-      url: '',
-      isOpen: false
+      name: 'SMK 10 November Sukodono',
+      tag: ['vuejs, bootstrap, firebase'],
+      urlDemo: 'https://smk-10-november-sukodono.web.app/',
+      url: 'SMK%2010%20November%20Sukodono',
+      isOpen: true
     },
     {
       name: 'Company Profile',
@@ -99,7 +106,7 @@ export default function useDb(){
     },
     {
       name: 'Bootstrap',
-      level: 4
+      level: 5
     },
     {
       name: 'Vuejs',
