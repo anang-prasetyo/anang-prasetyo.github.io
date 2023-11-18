@@ -1,27 +1,55 @@
 <template>
-  <section class="vh-100">
-    <div class="row h-100 m-0 row-gap-5 border border-start-0 border-end-0 border-black border-2">
-      <div class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 h-100 justify-content-center border-end border-black border-2" style="background: #F96269; padding: 0rem 5rem 0rem 5rem;">
+  <section class="mb-5">
+    <div class="row m-0 border-top border-bottom border-black border-2">
+      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #F96269; padding: 0rem 5rem 0rem 5rem;">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: black;">Fullstack Web Developer.</span></div>
+        <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
-        <div class="mt-2">
-          <button class="btn-custom-1">Undang saya</button>
-        </div>
+        <button class="mt-2 btn-custom-1">Undang saya</button>
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column h-100 justify-content-center" style="background: #253C78;">
+      <div class="col-12 col-md-6 d-flex flex-column vh-100 justify-content-center position-relative" style="background: #253C78;">
         <!-- <div class="box m-auto"></div> -->
         <div class="project-thumb m-auto" style="height: 25rem;">
           <img src="../assets/anang-prasetyo-avatar.png" alt="">
         </div>
+        <div id="sticker1" class="position-absolute" style="right: 15%; top: 40%; height: 5rem; transform: rotate(-12deg);">
+          <coding-sticker style="color: #253C78; height: 6rem; width: 7rem;" />
+        </div>
+        <div id="sticker2" class="position-absolute" style="left: 15%; bottom: 15%; height: 8rem; transform: rotate(12deg);">
+          <programming-language style="color: #F96269; height: 8rem; width: 12rem;" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container my-5">
+    <div class="fs-3 text-center">Anda memiliki impian untuk membangun website Anda sendiri dengan desain yang modern dan biaya terjangkau? Ayo segera mulai bangun bisnis / organisasi Anda secara online dan tunjukan kepada dunia.</div>
+  </section>
+  <section class="my-5">
+    <div class="row m-0 fs-1 border-top border-bottom border-black border-2">
+      <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5; padding: 5rem;">
+        <div>Mengunjungi beberapa tempat hanya untuk promosi. Itu melelahkan!</div>
+      </div>
+      <div class="col-12 col-sm-6" style="background: #829CD9; padding: 5rem;">
+        <div>Biarkan mereka yang mencari tahu tentang Anda. Itu menarik!</div>
+      </div>
+    </div>
+    <div class="row m-0 border-bottom border-black border-2">
+      <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #0E182F; padding: 5rem;">
+        <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">Selain menggunakan cara umum...</div>
+        <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%201-3x.png" alt="" class="img-fluid d-block mx-auto" style="height: 20rem;">
+      </div>
+      <div class="col-12 col-sm-6" style="background: #F96269; padding: 5rem;">
+        <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
+        <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%2011-3x.png" alt="" class="img-fluid d-block mx-auto" style="height: 20rem;">
       </div>
     </div>
   </section>
 </template>
 
-<script>
-export default {
+<script setup>
+import CodingSticker from "../icons/CodingSticker.vue";
+import ProgrammingLanguage from "../icons/ProgrammingLanguage.vue";
 
-}
 </script>
 
 <style scoped lang="scss">

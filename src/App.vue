@@ -1,33 +1,16 @@
 <template>
-  <main class="d-flex flex-column gap-5 position-relative">
+  <main class="d-flex flex-column position-relative">
     <div class="container py-2 position-absolute top-0 start-0 end-0">
       <!-- <div class="alert alert-primary" role="alert">This site is currently undergoing maintenance, some features may not function properly</div> -->
     </div>
-    <hero-component></hero-component>
+    <hero-component class="mb-5" />
     <section class="container my-5">
-      <div class="fs-3 text-center">Anda memiliki impian untuk membangun website Anda sendiri dengan desain yang modern dan biaya terjangkau? Ayo segera mulai bangun bisnis / organisasi Anda secara online dan tunjukan kepada dunia.</div>
-      <!-- <Vue3Lottie :animationData="AstronautJSON" style="height: 500px;" /> -->
-      <div class="project-thumb m-auto" style="width: 30rem;">
-        <img src="./assets/ilustrasi/43271.jpg" alt="">
-      </div>
-    </section>
-    <section>
-      <div class="row m-0 fs-1 border border-start-0 border-end-0 border-black border-2">
-        <div class="col-6 border-end border-black border-2" style="background: #446BC5; padding: 5rem;">
-          <div>Mengunjungi beberapa tempat hanya untuk promosi. Itu melelahkan!</div>
-        </div>
-        <div class="col-6" style="background: #829CD9; padding: 5rem;">
-          <div>Biarkan mereka yang mencari tahu tentang Anda. Itu menarik!</div>
-        </div>
-      </div>
-    </section>
-    <section class="container my-5">
-      <div class="d-flex flex-column gap-2 text-center" style="padding: 5rem;">
+      <div id="pad5" class="d-flex flex-column gap-2 text-center">
         <div class="display-4 fw-bold">Mulai kenalkan diri Anda kepada dunia.</div>
         <div class="fs-3 lh-sm">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
       </div>
     </section>
-    <my-skills />
+    <my-skills class="mt-5" />
     <my-projects />
     <section class="container-fluid d-flex align-items-center justify-content-center py-4 sosmed-bg" style="background: #253C78;">
       <div class="row h-100 w-100 d-flex justify-content-center align-items-center">
@@ -64,7 +47,6 @@ const sosmedKu = ref([
 </script>
 
 <style lang="scss" scoped>
-
 .sosmed{
   &-bg{
     outline: var(--border-black-3); 
