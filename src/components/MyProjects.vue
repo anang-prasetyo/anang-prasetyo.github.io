@@ -112,7 +112,7 @@ onMounted(() => {
 }
 @media (max-width: 576px) {
   .project-thumb{
-    height: 15rem;
+    height: 12rem;
   }
   .buttonku{
     padding: 5px 12px;

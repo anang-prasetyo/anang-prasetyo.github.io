@@ -6,27 +6,36 @@
   #sticker{
     &1{
       right: 2% !important;
+      top: 44% !important;
       svg{
         height: 4rem !important;
       }
     }
     &2{
       left: 2% !important;
-    }
+    } 
   }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) { 
-  
+  #cycleDesktop{
+    display: none;
+  }
 }
 
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) { 
+  .siklus1-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
 }
 
 // `xl` applies to large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) {}
+@media (max-width: 1199.98px) {
+
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
@@ -42,8 +51,18 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  #cycleMobile{
+    display: none;
+  }
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  #siklus1{
+    border-radius: 25rem;
+  }
+  .siklus1-border{
+    border: 2px solid black;
+  }
 }

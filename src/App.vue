@@ -3,11 +3,16 @@
     <div class="container py-2 position-absolute top-0 start-0 end-0">
       <!-- <div class="alert alert-primary" role="alert">This site is currently undergoing maintenance, some features may not function properly</div> -->
     </div>
-    <hero-component class="mb-5" />
-    <section class="container my-5">
-      <div id="pad5" class="d-flex flex-column gap-2 text-center">
-        <div class="display-4 fw-bold">Mulai kenalkan diri Anda kepada dunia.</div>
-        <div class="fs-3 lh-sm">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
+    <hero-component class="" />
+    <section class="mb-5">
+      <div id="pad5" class="d-flex flex-column gap-2 text-center fs-3">
+        <div class="display-2 fw-bold">Kenalkan diri Anda kepada dunia.</div>
+        <div class="lh-sm">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
+        <!-- <div class="mt-5 d-flex justify-content-center">
+          <button class="btn d-inline-flex align-items-center gap-2 fs-3" disabled>
+            <span>Lihat paket</span><i class="d-flex bi bi-arrow-right"></i>
+          </button>
+        </div> -->
       </div>
     </section>
     <my-skills class="mt-5" />
