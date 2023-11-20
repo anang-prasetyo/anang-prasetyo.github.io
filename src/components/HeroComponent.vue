@@ -69,11 +69,11 @@
     <div class="row m-0 border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #0E182F; padding: 5rem;">
         <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">Selain menggunakan cara umum...</div>
-        <img id="img2" src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%201-3x.png" alt="" class="img-fluid d-block mx-auto">
+        <img id="img2" src="../assets/ilustrasi/anang-holding-megaphone.png" alt="" class="img-fluid d-block mx-auto">
       </div>
       <div class="col-12 col-sm-6" style="background: #F96269; padding: 5rem;">
         <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
-        <img id="img2" src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/Asset%2011-3x.png" alt="" class="img-fluid d-block mx-auto">
+        <img id="img2" src="../assets/ilustrasi/anang-browsing-internet.png" alt="" class="img-fluid d-block mx-auto">
       </div>
     </div>
   </section>

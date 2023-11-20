@@ -4,15 +4,86 @@
       <!-- <div class="alert alert-primary" role="alert">This site is currently undergoing maintenance, some features may not function properly</div> -->
     </div>
     <hero-component class="" />
-    <section class="mb-5">
-      <div id="pad5" class="d-flex flex-column gap-2 text-center fs-3">
+    <section class="">
+      <div id="pad5" class="d-flex flex-column gap-2 text-center">
         <div class="display-2 fw-bold">Kenalkan diri Anda kepada dunia.</div>
-        <div class="lh-sm">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
-        <!-- <div class="mt-5 d-flex justify-content-center">
-          <button class="btn d-inline-flex align-items-center gap-2 fs-3" disabled>
-            <span>Lihat paket</span><i class="d-flex bi bi-arrow-right"></i>
+        <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
+        <div class="mt-5 d-flex justify-content-center">
+          <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3">
+            <span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i>
           </button>
-        </div> -->
+        </div>
+      </div>
+    </section>
+    <section class="container-lg mb-5">
+      <div class="row m-0 text-capitalize row-gap-3">
+        <div class="col-12 col-sm-4 p-0 p-sm-2">
+          <div class="border border-2 border-black bg-warning-subtle p-4 p-sm-2 p-md-4" style="">
+            <div class="fs-3 mb-3 fw-bold">Basic</div>
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check"></i> fitur basic</li>
+              <li><i class="bi bi-check"></i> konten Statis</li>
+              <li><i class="bi bi-check"></i> bebas pilih warna</li>
+              <li><i class="bi bi-check"></i> mode terang</li>
+              <li><i class="bi bi-check"></i> database JSON</li>
+              <li><i class="bi bi-check"></i> tampilan handphone / desktop</li>
+              <li><i class="bi bi-check"></i> pengalaman pengguna biasa</li>
+              <li><i class="bi bi-check"></i> pengerjaan 7 hari</li>
+              <li><i class="bi bi-check"></i> dp 0%</li>
+              <li><i class="bi bi-check"></i> garansi 7 hari</li>
+            </ul>
+            <div>
+              Rp.
+              <span class="fs-1">500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 p-0 p-sm-2">
+          <div class="border border-2 border-black bg-warning-subtle p-4 p-sm-2 p-md-4" style="">
+            <div class="fs-3 mb-3 fw-bold">Unggul</div>
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check"></i> fitur basic</li>
+              <li><i class="bi bi-check"></i> konten Semi Dinamis</li>
+              <li><i class="bi bi-check"></i> desain semi custom</li>
+              <li><i class="bi bi-check"></i> mode terang / mode gelap</li>
+              <li><i class="bi bi-check"></i> menu admin</li>
+              <li><i class="bi bi-check"></i> database firebase firestore / mySQL</li>
+              <li><i class="bi bi-check"></i> tampilan handphone dan desktop</li>
+              <li><i class="bi bi-check"></i> pengalaman pengguna biasa</li>
+              <li><i class="bi bi-check"></i> pengerjaan 30 hari</li>
+              <li><i class="bi bi-check"></i> dp 10%</li>
+              <li><i class="bi bi-check"></i> garansi 30 hari</li>
+            </ul>
+            <div>
+              Rp.
+              <span class="fs-1">1.500.000</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 p-0 p-sm-2">
+          <div class="border border-2 border-black bg-warning p-4 p-sm-2 p-md-4" style="">
+            <div class="fs-3 mb-3 fw-bold">Pro</div>
+            <ul class="list-unstyled text-start">
+              <li><i class="bi bi-check"></i> fitur custom</li>
+              <li><i class="bi bi-check"></i> konten Dinamis</li>
+              <li><i class="bi bi-check"></i> desain custom</li>
+              <li><i class="bi bi-check"></i> mode terang dan mode gelap</li>
+              <li><i class="bi bi-check"></i> menu admin</li>
+              <li><i class="bi bi-check"></i> database firebase firestore / mySQL</li>
+              <li><i class="bi bi-check"></i> tampilan handphone, tablet dan desktop</li>
+              <li><i class="bi bi-check"></i> pengalaman pengguna maksimal</li>
+              <li><i class="bi bi-check"></i> pengerjaan minimal 30 hari</li>
+              <li><i class="bi bi-check"></i> dp 10%</li>
+              <li><i class="bi bi-check"></i> garansi 60 hari</li>
+            </ul>
+            <div>
+              Rp.
+              <span class="fs-1">1.800.000</span>
+              + x
+            </div>
+            <div class="fs-xs2">x (biaya tambahan sesuai tingkat kesulitan)</div>
+          </div>
+        </div>
       </div>
     </section>
     <my-skills class="mt-5" />
