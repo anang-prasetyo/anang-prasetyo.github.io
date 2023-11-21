@@ -88,9 +88,9 @@
     </section>
     <section class="mt-5">
       <div class="row m-0 border-top border-bottom border-black border-2">
-        <div id="boxBorderEnd" class="col-6" style="background: #446BC5;">
+        <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5;">
         </div>
-        <div class="col-6 bg-white p-5 text-capitalize" style="">
+        <div class="col-12 col-sm-6 bg-white p-5 text-capitalize" style="">
           <div class="fs-1">Beragam jenis web</div>
           <div class="fs-3 lh-sm my-5">Sekolahan. Warung kopi. company profile. apapun! ide yang anda miliki bisa diwujudkan menjadi website.</div>
           <ul class="fs-4 list-unstyled">
@@ -105,7 +105,7 @@
     </section>
     <my-skills class="mt-5" />
     <my-projects />
-    <section class="border-bottom border-black border-2" style="background: #829CD9; height: 75vh;">
+    <section class="border-bottom border-black border-2" style="background: #829CD9;">
       <div class="row m-0">
         <div class="col-8 fs-3">
           <div class=" p-5">
