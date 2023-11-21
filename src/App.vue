@@ -88,9 +88,9 @@
     </section>
     <section class="mt-5">
       <div class="row m-0 border-top border-bottom border-black border-2">
-        <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5;">
+        <div id="boxBorderEnd" class="col-12 col-sm-6 vh-50" style="background: #446BC5;">
         </div>
-        <div class="col-12 col-sm-6 bg-white p-5 text-capitalize" style="">
+        <div class="col-12 col-sm-6 bg-white p-2 p-sm-5 text-capitalize" style="">
           <div class="fs-1">Beragam jenis web</div>
           <div class="fs-3 lh-sm my-5">Sekolahan. Warung kopi. company profile. apapun! ide yang anda miliki bisa diwujudkan menjadi website.</div>
           <ul class="fs-4 list-unstyled">
@@ -107,12 +107,12 @@
     <my-projects />
     <section class="border-bottom border-black border-2" style="background: #829CD9;">
       <div class="row m-0">
-        <div class="col-8 fs-3">
-          <div class=" p-5">
+        <div class="col-12 col-sm-8 fs-3">
+          <div class="p-2 p-sm-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ullam quam earum? Blanditiis, numquam consequatur? Expedita, aliquam iste, fuga id vitae nemo accusantium cupiditate iusto officiis, perspiciatis odio veritatis ipsa?</p>
           </div>
         </div>
-        <div class="col-4"></div>
+        <!-- <div class="col-4"></div> -->
       </div>
     </section>
     <section class="container-fluid d-flex align-items-center justify-content-center py-4 sosmed-bg" style="background: #253C78;">
