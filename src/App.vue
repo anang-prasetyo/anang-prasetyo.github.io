@@ -9,13 +9,13 @@
         <div class="display-2 fw-bold">Kenalkan diri Anda kepada dunia.</div>
         <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
         <div class="mt-5 d-flex justify-content-center">
-          <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3">
-            <span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i>
-          </button>
+          <a href="#paket" class="text-decoration-none" style="color: inherit;">
+            <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3"><span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i></button>
+          </a>
         </div>
       </div>
     </section>
-    <section class="container-lg mb-5">
+    <section id="paket" class="container-lg my-5 mt-sm-0">
       <div class="row m-0 text-capitalize row-gap-3">
         <div class="col-12 col-sm-4 p-0 p-sm-2">
           <div class="border border-2 border-black bg-warning-subtle p-4 p-sm-2 p-md-4" style="">
@@ -25,8 +25,8 @@
               <li><i class="bi bi-check"></i> konten Statis</li>
               <li><i class="bi bi-check"></i> bebas pilih warna</li>
               <li><i class="bi bi-check"></i> mode terang</li>
-              <li><i class="bi bi-check"></i> database JSON</li>
-              <li><i class="bi bi-check"></i> tampilan handphone / desktop</li>
+              <li><i class="bi bi-check"></i> desain menarik</li>
+              <li><i class="bi bi-check"></i> tampilan handphone atau desktop</li>
               <li><i class="bi bi-check"></i> pengalaman pengguna biasa</li>
               <li><i class="bi bi-check"></i> pengerjaan 7 hari</li>
               <li><i class="bi bi-check"></i> dp 0%</li>
@@ -45,9 +45,9 @@
               <li><i class="bi bi-check"></i> fitur basic</li>
               <li><i class="bi bi-check"></i> konten Semi Dinamis</li>
               <li><i class="bi bi-check"></i> desain semi custom</li>
-              <li><i class="bi bi-check"></i> mode terang / mode gelap</li>
+              <li><i class="bi bi-check"></i> mode terang atau mode gelap</li>
               <li><i class="bi bi-check"></i> menu admin</li>
-              <li><i class="bi bi-check"></i> database firebase firestore / mySQL</li>
+              <li><i class="bi bi-check"></i> desain menarik</li>
               <li><i class="bi bi-check"></i> tampilan handphone dan desktop</li>
               <li><i class="bi bi-check"></i> pengalaman pengguna biasa</li>
               <li><i class="bi bi-check"></i> pengerjaan 30 hari</li>
@@ -69,7 +69,7 @@
               <li><i class="bi bi-check"></i> desain custom</li>
               <li><i class="bi bi-check"></i> mode terang dan mode gelap</li>
               <li><i class="bi bi-check"></i> menu admin</li>
-              <li><i class="bi bi-check"></i> database firebase firestore / mySQL</li>
+              <li><i class="bi bi-check"></i> desain menarik</li>
               <li><i class="bi bi-check"></i> tampilan handphone, tablet dan desktop</li>
               <li><i class="bi bi-check"></i> pengalaman pengguna maksimal</li>
               <li><i class="bi bi-check"></i> pengerjaan minimal 30 hari</li>
@@ -78,7 +78,7 @@
             </ul>
             <div>
               Rp.
-              <span class="fs-1">1.800.000</span>
+              <span class="fs-1">2.300.000</span>
               + x
             </div>
             <div class="fs-xs2">x (biaya tambahan sesuai tingkat kesulitan)</div>
@@ -86,8 +86,35 @@
         </div>
       </div>
     </section>
+    <section class="mt-5">
+      <div class="row m-0 border-top border-bottom border-black border-2">
+        <div id="boxBorderEnd" class="col-6" style="background: #446BC5;">
+        </div>
+        <div class="col-6 bg-white p-5 text-capitalize" style="">
+          <div class="fs-1">Beragam jenis web</div>
+          <div class="fs-3 lh-sm my-5">Sekolahan. Warung kopi. company profile. apapun! ide yang anda miliki bisa diwujudkan menjadi website.</div>
+          <ul class="fs-4 list-unstyled">
+            <li><i class="bi bi-arrow-right"></i> Website untuk sekolahan</li>
+            <li><i class="bi bi-arrow-right"></i> Website untuk karang taruna</li>
+            <li><i class="bi bi-arrow-right"></i> Website untuk promosi usaha</li>
+            <li><i class="bi bi-arrow-right"></i> Website untuk skripsi</li>
+            <li><i class="bi bi-arrow-right"></i> Website untuk jualan</li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <my-skills class="mt-5" />
     <my-projects />
+    <section class="border-bottom border-black border-2" style="background: #829CD9; height: 75vh;">
+      <div class="row m-0">
+        <div class="col-8 fs-3">
+          <div class=" p-5">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ullam quam earum? Blanditiis, numquam consequatur? Expedita, aliquam iste, fuga id vitae nemo accusantium cupiditate iusto officiis, perspiciatis odio veritatis ipsa?</p>
+          </div>
+        </div>
+        <div class="col-4"></div>
+      </div>
+    </section>
     <section class="container-fluid d-flex align-items-center justify-content-center py-4 sosmed-bg" style="background: #253C78;">
       <div class="row h-100 w-100 d-flex justify-content-center align-items-center">
         <div class="col p-3 h2 text-center m-auto text-white">Kontak saya.</div>
@@ -99,7 +126,12 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="container py-3 px-3 text-center">by Anang in 2023</div>
+      <div class="container py-3 px-3 text-center">
+        <div class="my-5">
+          <button @click="scrollToTop()" class="btn">Kembali ke atas <i class="bi bi-arrow-up-short"></i></button>
+        </div>
+        <div>by Anang in 2023</div>
+      </div>
     </footer>
   </main>
 </template>
@@ -120,6 +152,10 @@ const sosmedKu = ref([
   // { name:'telegram', link:"https://www.github.com/" },
   { name:'envelope', link:"http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=TO_anprasetyo060@gmail.com&su=SUBJECT&body=BODY" },
 ])
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+}
 </script>
 
 <style lang="scss" scoped>

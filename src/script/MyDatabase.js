@@ -128,14 +128,14 @@ export default function useDb(){
       name: 'Github',
       level: 4
     },
-    {
-      name: 'Codeigniter',
-      level: 3
-    },
-    {
-      name: 'Laravel',
-      level: 3
-    },
+    // {
+    //   name: 'Codeigniter',
+    //   level: 3
+    // },
+    // {
+    //   name: 'Laravel',
+    //   level: 3
+    // },
   ])
 
   return { project, skills }

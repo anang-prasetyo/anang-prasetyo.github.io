@@ -5,7 +5,8 @@
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
-        <button class="mt-2 btn-custom-1">Undang saya</button>
+        <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-2">Undang Saya</button>
+        <!-- <button class="mt-2 btn-custom-1">Undang saya</button> -->
       </div>
       <div class="col-12 col-md-6 d-flex flex-column vh-100 justify-content-center position-relative" style="background: #253C78;">
         <!-- <div class="box m-auto"></div> -->
@@ -22,14 +23,14 @@
     </div>
   </section>
   <section class="container my-5">
-    <div class="fs-3 text-center">Memiliki impian untuk membangun website Anda sendiri dengan desain modern dan biaya terjangkau? Ayo mulai bangun bisnis / organisasi Anda secara online dan tunjukan kepada dunia.</div>
+    <div class="fs-3 text-center">Memiliki impian untuk membangun bisnis atau organisasi Anda sendiri di dunia maya? Sekaranglah saatnya untuk mulai membangun bisnis atau organisasi Anda secara online.</div>
   </section>
   <div class="container-lg mb-5 px-0 px-lg-3">
     <div id="siklus1" class="siklus1-border position-relative text-capitalize fs-3 p-4" style="background: #F96269;">
       <div id="siklus1" class="border border-2 border-black" style="height: 20rem;"></div>
       <div id="cycleMobile" style="z-index: 2;">
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 45%; left: 1.65rem; transform: translate(-50%)rotate(-90deg);">
-          <div>perkenalan diri Anda</div>
+          <div>pilih paket</div>
         </div>
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; left: 50%; transform: translateX(-50%);">
           <div>pengerjaan</div>
@@ -37,21 +38,21 @@
         <div class="position-absolute ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 45%; right: 1.5rem; transform: translate(50%)rotate(-90deg);">
           <div>pencocokan data</div>
         </div>
-        <div class="position-absolute mb-1 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 50%; transform: translateX(-50%);">
+        <div class="position-absolute mb-2 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 50%; transform: translateX(-50%);">
           <div>pembayaran</div>
         </div>
       </div>
       <div id="cycleDesktop" style="z-index: 2;">
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; left: 20%;">
-          <div>perkenalan diri Anda</div>
+          <div>pilih paket</div>
         </div>
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; right: 20%;">
           <div>pengerjaan</div>
         </div>
-        <div class="position-absolute mb-1 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; right: 20%;">
+        <div class="position-absolute mb-1 mb-lg-0 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; right: 20%;">
           <div>pencocokan data</div>
         </div>
-        <div class="position-absolute mb-1 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 20%;">
+        <div class="position-absolute mb-1 mb-lg-0 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 20%;">
           <div>pembayaran</div>
         </div>
       </div>
@@ -122,13 +123,15 @@ import ProgrammingLanguage from "../icons/ProgrammingLanguage.vue";
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(249, 98, 105);
+  // background-color: rgb(15, 15, 15);
   border: none;
-  color: #F96269;
+  color: black;
+  // color: #F96269;
   font-weight: 600;
   gap: 8px;
   cursor: pointer;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
+  box-shadow: 5px 5px 10px rgba(249, 98, 105, 0.103);
   position: relative;
   overflow: hidden;
   transition-duration: .3s;
