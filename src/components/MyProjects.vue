@@ -84,7 +84,7 @@ onMounted(() => {
 }
 
 .project{
-  border-radius: 10px;
+  border-radius: 12px;
   // border-radius: var(--border-radius-1);
   border: var(--border-white-2);
   box-shadow: var(--box-shadow-black);
@@ -94,7 +94,7 @@ onMounted(() => {
     background: #A1B4E2;
     border-bottom: 2px solid white;
     height: 10rem;
-    border-radius: inherit;
+    border-radius: 10px;
     overflow: hidden;
     & img{
       height: inherit;

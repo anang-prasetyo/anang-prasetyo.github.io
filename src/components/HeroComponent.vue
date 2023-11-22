@@ -1,14 +1,14 @@
 <template>
   <section :class="type == 'lg' ? 'mb-5' : ''">
     <div class="row m-0 border-top border-bottom border-black border-2">
-      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem;' : 'padding: 0rem 5rem 0rem 5rem;'">
+      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="[type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem; height: 50vh;' : 'padding: 0rem 5rem 0rem 5rem; height: 100vh;']">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
         <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-2">Undang Saya</button>
         <!-- <button class="mt-2 btn-custom-1">Undang saya</button> -->
       </div>
-      <div class="col-12 col-md-6 d-flex flex-column vh-100 justify-content-center position-relative" style="background: #253C78;">
+      <div class="col-12 col-md-6 d-flex flex-column justify-content-center position-relative" style="background: #253C78;" :style="type == 'xs' ? 'height: 50vh;' : 'height: 100vh;'">
         <!-- <div class="box m-auto"></div> -->
         <div class="project-thumb m-auto" style="height: 25rem;">
           <img src="../assets/anang-prasetyo-avatar.png" alt="">

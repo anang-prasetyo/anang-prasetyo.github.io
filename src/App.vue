@@ -32,8 +32,8 @@
         </div>
       </div>
     </section>
-    <section id="paket" class="container-lg my-5 mt-sm-0 text-capitalize">
-      <div class="display-1 text-center fw-bold">promo grand opening</div>
+    <section id="paket" class="container-lg mb-5 mt-0 mt-sm-5 text-capitalize">
+      <div class="display-1 text-center fw-bold mb-3 mb-sm-0">promo grand opening</div>
       <div class="row m-0 row-gap-3">
         <div class="col-12 col-sm-4 p-0 p-sm-2">
           <div class="border border-2 border-black bg-warning-subtle p-4 p-sm-2 p-md-4" style="">
@@ -134,7 +134,9 @@
           </div>
           <div class="col-12 col-sm-6 fs-3">
             <ul class="list-unstyled d-flex justify-content-center gap-5 m-auto">
-              <li v-for="s in sosmedKu" :key="s"><i :class="'bi-'+s.name"></i></li>
+              <li v-for="s in sosmedKu" :key="s">
+                <a :href="s.link" target="_blank" style="color: inherit;"><i :class="'bi-'+s.name"></i></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -154,7 +156,7 @@ import HeroComponent from "./components/HeroComponent.vue";
 const sosmedKu = ref([
   { name:'github', link:"https://github.com/anang-prasetyo" },
   { name:'whatsapp', link:"https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" },
-  { name:'instagram', link:"https://www.instagram.com/pra_anang/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" },
+  { name:'instagram', link:"https://www.instagram.com/pra_anang" },
   // { name:'linkedin', link:"https://www.github.com/" },
   // { name:'telegram', link:"https://www.github.com/" },
   { name:'envelope', link:"http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=TO_anprasetyo060@gmail.com&su=SUBJECT&body=BODY" },
