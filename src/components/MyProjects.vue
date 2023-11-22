@@ -1,8 +1,8 @@
 <template>
-  <main class="bg-dark">
+  <main class="border-2 border-bottom border-black" style="background: #B1C1E7;">
     <section class="container min-vh-100 d-flex flex-column justify-content-center">
       <div class="row py-5">
-        <div class="col-12 p-3 h2 text-center text-white">Proyek saya.</div>
+        <div class="col-12 p-3 fs-1 text-center">Proyek saya.</div>
         <div class="col-12">
           <ul v-if="newProject" class="row list-unstyled">
             <li v-for="p, pi in newProject" :key="pi" class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
@@ -60,8 +60,8 @@ onMounted(() => {
   color: black;
   border-radius: 5px;
   padding: 5px 12px 0px 12px;
-  outline: 2px solid black;
-  border: 2px solid white;
+  outline: 2px solid white;
+  border: 2px solid black;
   box-shadow: 0px 4px black;
   position: relative;
   text-decoration: none;
@@ -84,13 +84,15 @@ onMounted(() => {
 }
 
 .project{
-  border-radius: var(--border-radius-1);
-  border: var(--border-black-2);
+  border-radius: 10px;
+  // border-radius: var(--border-radius-1);
+  border: var(--border-white-2);
   box-shadow: var(--box-shadow-black);
   background: #253C78;
   color: var(--color-white);
   &-thumb{
     background: #A1B4E2;
+    border-bottom: 2px solid white;
     height: 10rem;
     border-radius: inherit;
     overflow: hidden;

@@ -1,8 +1,8 @@
 <template>
-  <main class="border-2 border-top border-bottom border-black py-5" style="background: #F96269;">
+  <main class="border-2 border-top border-bottom border-black py-5" style="background: #FB9DA1;">
     <section class="container min-vh-100 d-flex flex-column justify-content-center">
       <div class="row">
-        <div class="col-12 p-3 h2 text-center">Beberapa yang saya kuasai.</div>
+        <div class="col-12 p-3 fs-1 text-center">Beberapa yang saya kuasai.</div>
       </div>
       <div class="col-12">
         <ul v-if="newSkills" class="row list-unstyled mb-0 d-flex justify-content-center">
@@ -40,7 +40,7 @@ onMounted(() => {
 <style lang="scss" scoped>
 .skill{
   background: whitesmoke; 
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid black;
   border-top: 3px solid black;
   border-left: 3px solid black;
@@ -48,7 +48,8 @@ onMounted(() => {
     background: lavender;
     height: 3rem;
     width: 3rem;
-    border-radius: var(--border-radius-1);
+    border-radius: 10px;
+    // border-radius: var(--border-radius-1);
     border: var(--border-black-2);
     box-shadow: var(--box-shadow-black);
     overflow: hidden;

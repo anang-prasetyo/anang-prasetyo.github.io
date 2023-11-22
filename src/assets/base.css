@@ -1,6 +1,7 @@
 :root{
   --color-black: black;
   --color-white: white;
+  --border-white-2: 2px solid var(--color-white);
   --border-black-2: 2px solid var(--color-black);
   --border-black-3: 3px solid var(--color-black);
   --border-black-4: 4px solid var(--color-black);

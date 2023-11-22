@@ -1,7 +1,7 @@
 <template>
-  <section class="mb-5">
+  <section :class="type == 'lg' ? 'mb-5' : ''">
     <div class="row m-0 border-top border-bottom border-black border-2">
-      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #fff; padding: 0rem 5rem 0rem 5rem;">
+      <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 vh-100 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem;' : 'padding: 0rem 5rem 0rem 5rem;'">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
@@ -23,7 +23,7 @@
     </div>
   </section>
   <section class="container my-5">
-    <div class="fs-3 text-center">Memiliki impian untuk membangun bisnis atau organisasi Anda sendiri di dunia maya? Sekaranglah saatnya untuk mulai membangun bisnis atau organisasi Anda secara online.</div>
+    <div class="fs-3 text-center px-4 px-sm-0">Memiliki impian untuk membangun bisnis atau organisasi Anda sendiri di dunia maya? Sekaranglah saatnya untuk mulai membangun bisnis atau organisasi Anda secara online.</div>
   </section>
   <div class="container-lg mb-5 px-0 px-lg-3">
     <div id="siklus1" class="siklus1-border position-relative text-capitalize fs-3 p-4" style="background: #F96269;">
@@ -67,13 +67,13 @@
         <div>Biarkan mereka yang mencari tahu tentang Anda. Itu menarik!</div>
       </div>
     </div>
-    <div class="row m-0 border-bottom border-black border-2">
-      <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #0E182F; padding: 5rem;">
-        <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">Selain menggunakan cara umum...</div>
+    <div class="row m-0 border-bottom border-black border-2 fs-4">
+      <div id="boxBorderEnd" class="col-12 col-sm-6 p-5" style="background: #0E182F;">
+        <div class="d-inline-flex bg-white p-4 border border-2 border-black rounded rounded-4">Selain menggunakan cara umum...</div>
         <img id="img2" src="../assets/ilustrasi/anang-holding-megaphone.png" alt="" class="img-fluid d-block mx-auto">
       </div>
-      <div class="col-12 col-sm-6" style="background: #F96269; padding: 5rem;">
-        <div class="d-inline-flex bg-white p-3 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
+      <div class="col-12 col-sm-6 p-5" style="background: #F96269;">
+        <div class="d-inline-flex bg-white p-4 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
         <img id="img2" src="../assets/ilustrasi/anang-browsing-internet.png" alt="" class="img-fluid d-block mx-auto">
       </div>
     </div>
@@ -83,6 +83,9 @@
 <script setup>
 import CodingSticker from "../icons/CodingSticker.vue";
 import ProgrammingLanguage from "../icons/ProgrammingLanguage.vue";
+import { useBreakpoints } from "../script/MyFunc";
+
+const { type } = useBreakpoints()
 
 </script>
 
