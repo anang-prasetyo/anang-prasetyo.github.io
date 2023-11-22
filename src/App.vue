@@ -9,7 +9,7 @@
         <div class="display-2 fw-bold">Kenalkan diri Anda kepada dunia.</div>
         <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
         <div class="mt-5 d-flex justify-content-center">
-          <a href="#paket" class="text-decoration-none" style="color: inherit;">
+          <a href="" class="text-decoration-none" style="color: inherit;">
             <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3"><span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i></button>
           </a>
         </div>
