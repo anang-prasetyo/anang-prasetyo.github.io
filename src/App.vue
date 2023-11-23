@@ -18,7 +18,7 @@
     <section class="my-5">
       <div class="row m-0 border-top border-bottom border-black border-2">
         <div id="boxBorderEnd" class="col-12 col-md-6 py-2" style="background: #446BC5;" :style="type == 'lg' ? 'height: 100vh;' : ''">
-          <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/jenis%20web%404x.png" alt="" class="img-fluid h-100 m-auto d-block">
+          <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/jenis%20web%404x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
         </div>
         <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-capitalize text-center text-sm-start" style="">
           <div class="fs-1">Beragam jenis web</div>
