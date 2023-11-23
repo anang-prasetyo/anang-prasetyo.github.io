@@ -9,15 +9,13 @@
         <div class="display-2" style="font-weight: 400;">Kenalkan diri Anda kepada dunia.</div>
         <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
         <div class="mt-5 d-flex justify-content-center">
-          <a href="" class="text-decoration-none" style="color: inherit;">
-            <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3"><span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i></button>
-          </a>
+          <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3"><span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i></button>
         </div>
       </div>
     </section>
     <section class="my-5">
       <div class="row m-0 border-top border-bottom border-black border-2">
-        <div id="boxBorderEnd" class="col-12 col-md-6 py-2" style="background: #446BC5;" :style="type == 'lg' ? 'height: 100vh;' : ''">
+        <div id="boxBorderEnd" class="col-12 col-md-6 p-5" style="background: #446BC5;" :style="type == 'lg' ? 'height: 100vh;' : ''">
           <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/jenis%20web%404x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
         </div>
         <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-capitalize text-center text-sm-start" style="">

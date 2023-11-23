@@ -62,8 +62,8 @@
   </div>
   <section class="mt-5">
     <div class="row m-0 border-top border-black border-2">
-      <div id="boxBorderEnd" class="col-12 col-md-6 py-2" style="background: #FB9DA1;" :style="type == 'lg' ? 'height: 100vh;' : ''">
-        <img src="../assets/ilustrasi/apa itu internet@4x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
+      <div id="boxBorderEnd" class="col-12 col-md-6 p-5" style="background: #FB9DA1;" :style="type == 'lg' ? 'height: 100vh;' : ''">
+        <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/apa%20itu%20internet%404x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
       </div>
       <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-center text-sm-start" style="">
         <div class="fs-1">Apa itu web atau website?</div>
@@ -71,7 +71,7 @@
       </div>
     </div>
   </section>
-  <section class="mb-5">
+  <section class="">
     <div class="row m-0 fs-1 border-top border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5; padding: 5rem;">
         <div>Mengunjungi beberapa tempat hanya untuk promosi. Itu melelahkan!</div>
@@ -88,6 +88,22 @@
       <div class="col-12 col-sm-6 p-5" style="background: #F96269;">
         <div class="d-inline-flex bg-white p-4 border border-2 border-black rounded rounded-4">...Coba juga dengan cara modern!</div>
         <img id="img2" src="../assets/ilustrasi/anang-browsing-internet.png" alt="" class="img-fluid d-block mx-auto">
+      </div>
+    </div>
+  </section>
+  <section class="mb-5">
+    <div class="row m-0 border-bottom border-black border-2">
+      <div id="boxBorderEnd" class="col-12 col-md-6 p-5" style="background: #000;" :style="type == 'lg' ? 'height: 100vh;' : ''">
+        <img src="../assets/ilustrasi/pentingnya website@4x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
+      </div>
+      <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-center text-sm-start" style="">
+        <div class="fs-1">Pentingnya Website</div>
+        <div class="fs-3 lh-sm my-5">Mengingat perkembangan teknologi yang semakin canggih, hampir semua kegiatan manusia dapat dilakukan secara online. Oleh karena itu kita perlu mengikuti alur perkembangan teknologi. Manfaat website antara lain :</div>
+        <ul class="fs-4 list-unstyled text-start d-inline-block">
+          <li><i class="bi bi-arrow-right"></i> Web sebagai sarana Informasi</li>
+          <li><i class="bi bi-arrow-right"></i> Web sebagai sarana Promosi</li>
+          <li><i class="bi bi-arrow-right"></i> Web sebagai sarana Komunikasi</li>
+        </ul>
       </div>
     </div>
   </section>
