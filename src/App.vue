@@ -137,7 +137,10 @@
         </div>
         <div class="row m-0 row-gap-5">
           <div class="col-12 col-sm-6">
-            <div>by Anang in 2023.</div>
+            <div class="d-flex gap-3 align-items-center justify-content-center">
+              <img src="./assets/logo.png" alt="" style="height: 2rem;">
+              <div>by Anang in 2023.</div>
+            </div>
           </div>
           <div class="col-12 col-sm-6 fs-3">
             <ul class="list-unstyled d-flex justify-content-center gap-5 m-auto">
