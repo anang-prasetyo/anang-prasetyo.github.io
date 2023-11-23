@@ -5,7 +5,9 @@
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Komputer.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
-        <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-2">Undang Saya</button>
+        <a href="https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" target="_blank" class="text-decoration-none" style="color: inherit;">
+          <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Diskusi</button>
+        </a>
         <!-- <button class="mt-2 btn-custom-1">Undang saya</button> -->
       </div>
       <div class="col-12 col-md-6 d-flex flex-column justify-content-center position-relative" style="background: #253C78;" :style="type == 'xs' ? 'padding: 3rem; min-height: 50vh;' : 'height: 100vh;'">
@@ -58,7 +60,18 @@
       </div>
     </div>
   </div>
-  <section class="my-5">
+  <section class="mt-5">
+    <div class="row m-0 border-top border-black border-2">
+      <div id="boxBorderEnd" class="col-12 col-md-6 py-2" style="background: #FB9DA1;" :style="type == 'lg' ? 'height: 100vh;' : ''">
+        <img src="../assets/ilustrasi/apa itu internet@4x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
+      </div>
+      <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-center text-sm-start" style="">
+        <div class="fs-1">Apa itu web atau website?</div>
+        <div class="fs-3 lh-sm my-5">Secara sederhana, web diartikan sebagai sebuah tempat di dunia maya yang dapat menyimpan berbagai informasi seperti teks, gambar maupun suara. Seperti bangunan di dunia nyata, web juga memiliki wujud dan alamat. Untuk mengakses web diperlukan jaringan internet dan web browser.</div>
+      </div>
+    </div>
+  </section>
+  <section class="mb-5">
     <div class="row m-0 fs-1 border-top border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5; padding: 5rem;">
         <div>Mengunjungi beberapa tempat hanya untuk promosi. Itu melelahkan!</div>

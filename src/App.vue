@@ -127,7 +127,9 @@
     <section class="d-flex align-items-center border-bottom border-black border-2 display-3 text-center" style="background: #F96269;" :style="type == 'md' || type == 'lg' ? 'min-height: 90vh; line-height: 3.5rem;' : ''">
       <div :style="type == 'lg' ? 'padding: 5rem;' : 'padding: 2rem;'">
         <div style="font-weight: 400;">Bagikan pekerjaan Anda. Seseorang diluar sana membutuhkannya.</div>
-        <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Konsultasi</button>
+        <a href="https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" target="_blank" class="text-decoration-none" style="color: inherit;">
+          <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Konsultasi</button>
+        </a>
       </div>
     </section>
     <footer class="footer" style="background: #000; color: #fff;">
