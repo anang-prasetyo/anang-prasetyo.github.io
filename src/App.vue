@@ -6,7 +6,7 @@
     <hero-component class="" />
     <section class="">
       <div id="pad5" class="d-flex flex-column gap-2 text-center px-4 px-sm-2">
-        <div class="display-2 fw-bold">Kenalkan diri Anda kepada dunia.</div>
+        <div class="display-2" style="font-weight: 400;">Kenalkan diri Anda kepada dunia.</div>
         <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
         <div class="mt-5 d-flex justify-content-center">
           <a href="" class="text-decoration-none" style="color: inherit;">
@@ -17,9 +17,10 @@
     </section>
     <section class="my-5">
       <div class="row m-0 border-top border-bottom border-black border-2">
-        <div id="boxBorderEnd" class="col-12 col-sm-6" style="background: #446BC5; min-height: 50vh;">
+        <div id="boxBorderEnd" class="col-12 col-md-6 py-2" style="background: #446BC5;" :style="type == 'lg' ? 'height: 100vh;' : ''">
+          <img src="./assets/ilustrasi/jenis web@4x.png" alt="" class="img-fluid h-100 m-auto d-block">
         </div>
-        <div class="col-12 col-sm-6 bg-white p-4 p-sm-5 text-capitalize text-center text-sm-start" style="">
+        <div class="col-12 col-md-6 bg-white p-4 p-sm-5 text-capitalize text-center text-sm-start" style="">
           <div class="fs-1">Beragam jenis web</div>
           <div class="fs-3 lh-sm my-5">Sekolahan. Warung kopi. company profile. apapun! ide yang anda miliki bisa diwujudkan menjadi website.</div>
           <ul class="fs-4 list-unstyled text-start d-inline-block">
@@ -33,7 +34,7 @@
       </div>
     </section>
     <section id="paket" class="container-lg mb-5 mt-0 mt-sm-5 text-capitalize">
-      <div class="display-1 text-center fw-bold mb-3 mb-sm-0">promo grand opening</div>
+      <div class="display-1 text-center mb-3 mb-sm-0" style="font-weight: 400;">promo grand opening</div>
       <div class="row m-0 row-gap-3">
         <div class="col-12 col-sm-4 p-0 p-sm-2">
           <div class="border border-2 border-black bg-warning-subtle p-4 p-sm-2 p-md-4" style="">
@@ -123,6 +124,12 @@
         <!-- <div class="col-4"></div> -->
       </div>
     </section>
+    <section class="d-flex align-items-center border-bottom border-black border-2 display-3 text-center" style="background: #F96269;" :style="type == 'md' || type == 'lg' ? 'min-height: 90vh; line-height: 3.5rem;' : ''">
+      <div :style="type == 'lg' ? 'padding: 5rem;' : 'padding: 2rem;'">
+        <div style="font-weight: 400;">Bagikan pekerjaan Anda. Seseorang diluar sana membutuhkannya.</div>
+        <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Konsultasi</button>
+      </div>
+    </section>
     <footer class="footer" style="background: #000; color: #fff;">
       <div class="container py-3 pb-5 px-3 text-center">
         <div class="my-5">
@@ -150,9 +157,11 @@ import { ref } from "vue"
 import MySkills from "./components/MySkills.vue";
 import MyProjects from "./components/MyProjects.vue";
 import HeroComponent from "./components/HeroComponent.vue";
+import { useBreakpoints } from "./script/MyFunc";
 // import { Vue3Lottie } from 'vue3-lottie'
 // import AstronautJSON from './assets/animasi/website.json'
 
+const { type } = useBreakpoints()
 const sosmedKu = ref([
   { name:'github', link:"https://github.com/anang-prasetyo" },
   { name:'whatsapp', link:"https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" },
