@@ -7,6 +7,7 @@ export default function useDb(){
       tag: ['vuejs, bootstrap'],
       urlDemo: 'https://anang-prasetyo.github.io/movies-collection/',
       url: 'Movies%20Collection',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -14,6 +15,7 @@ export default function useDb(){
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: true,
       isOpen: false
     },
     {
@@ -21,13 +23,15 @@ export default function useDb(){
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: false,
       isOpen: false
     },
     {
-      name: 'Karang Taruna',
+      name: 'Tunas Muda',
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: true,
       isOpen: false
     },
     {
@@ -35,6 +39,7 @@ export default function useDb(){
       tag: ['vuejs, bulma.io, firebase'],
       urlDemo: 'https://spk-dosbingskripsi.web.app/',
       url: 'SPK-PDPS',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -42,6 +47,7 @@ export default function useDb(){
       tag: ['vuejs, bootstrap, firebase'],
       urlDemo: 'https://pemilihan-logo.web.app/',
       url: 'Pemilihan%20Logo',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -49,6 +55,7 @@ export default function useDb(){
       tag: ['vuejs, locomotive scroll'],
       urlDemo: 'https://anang-prasetyo.github.io/almamater-coffee-and-eatery/',
       url: 'Almamater%20Coffee%20And%20Eatery',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -56,6 +63,7 @@ export default function useDb(){
       tag: ['vuejs, bootstrap'],
       urlDemo: 'https://anang-prasetyo.github.io/simple-shopping-cart/',
       url: 'Simple%20Shopping%20Cart',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -63,13 +71,15 @@ export default function useDb(){
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: false,
       isOpen: false
     },
     {
-      name: 'Online Shop',
+      name: 'Woku.id',
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: true,
       isOpen: false
     },
     {
@@ -77,6 +87,7 @@ export default function useDb(){
       tag: ['vuejs, bootstrap, firebase'],
       urlDemo: 'https://smk-10-november-sukodono.web.app/',
       url: 'SMK%2010%20November%20Sukodono',
+      isShowPoster: true,
       isOpen: true
     },
     {
@@ -84,6 +95,7 @@ export default function useDb(){
       tag: [''],
       urlDemo: '',
       url: '',
+      isShowPoster: false,
       isOpen: false
     },
   ])
