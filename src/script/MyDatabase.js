@@ -14,7 +14,7 @@ export default function useDb(){
       name: 'Wedding Agency',
       tag: [''],
       urlDemo: '',
-      url: '',
+      url: 'Wedding%20Agency',
       isShowPoster: true,
       isOpen: false
     },
@@ -30,7 +30,7 @@ export default function useDb(){
       name: 'Tunas Muda',
       tag: [''],
       urlDemo: '',
-      url: '',
+      url: 'Tunas%20Muda',
       isShowPoster: true,
       isOpen: false
     },
@@ -78,7 +78,7 @@ export default function useDb(){
       name: 'Woku.id',
       tag: [''],
       urlDemo: '',
-      url: '',
+      url: 'Woku.id',
       isShowPoster: true,
       isOpen: false
     },

@@ -10,9 +10,9 @@
                 <div v-if="p.url !== ''" class="project-thumb">
                   <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/' + p.url +'.jpg?raw=true'">
                 </div>
-                <!-- <div v-else-if="!p.isOpen && p.isShowPoster" class="project-thumb">
+                <div v-else-if="!p.isOpen && p.isShowPoster" class="project-thumb">
                   <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/' + p.url +'.jpg?raw=true'">
-                </div> -->
+                </div>
                 <div v-else class="project-thumb d-flex align-items-center">
                   <div class="p-2 w-100 text-center bg-body-secondary text-black border-top border-bottom border-2 border-black">Segera hadir</div>
                 </div>
