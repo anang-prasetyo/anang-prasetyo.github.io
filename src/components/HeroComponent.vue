@@ -146,21 +146,21 @@
             <li style="line-height: 1.3rem;">
               <div>Web Sekolahan - SMK 10 November Sukodono Sragen</div>
               <div class="fw-light">
-                <div>Oktober - November 2023, Sragen, Jawa Tengah</div>
+                <div>20 Oktober - 9 November 2023, Sragen, Jawa Tengah</div>
                 <div class="mt-2">Membangun website sekolahan dari awal dengan fitur utama Penerimaan Peserta Didik Baru (PPDB). Pihak sekolahan menyambut baik website ini dan membuaka kesempatan untuk dapat melanjutkan proyek ini di masa depan.</div>
               </div>
             </li>
             <li style="line-height: 1.3rem;">
               <div>Web Toko Online - Woku.id</div>
               <div class="fw-light">
-                <div>Agustus - September 2023, Sragen, Jawa Tengah</div>
+                <div>Agustus - September 2023, Surakarta, Jawa Tengah</div>
                 <div class="mt-2">Mengembangkan website administrasi barang pada sebuah toko kelontong Woku.id dengan fitur utama pengelolaan barang yang lebih mudah dan sederhana daripada sebelumnya. Pengembangan mencakup desain dan fitur yang ada pada website ini.</div>
               </div>
             </li>
             <li style="line-height: 1.3rem;">
               <div>Magang - Diskominfo Karanganyar</div>
               <div class="fw-light">
-                <div>Mei - Juni 2021, Karanganyar, Jawa Tengah</div>
+                <div>17 Mei - 17 Juni 2021, Karanganyar, Jawa Tengah</div>
                 <div class="mt-2">Mengerjakan beberapa tugas yaitu ikut menjadi tim dokumentasi pada beberapa kegiatan rutin Bupati Karanganyar, Melakukan kegiatan administrasi pada website Diskominfo Karanganyar dan Melakukan pemeliharaan perangkat komputer di kantor Diskominfo Karanganyar.</div>
               </div>
             </li>
