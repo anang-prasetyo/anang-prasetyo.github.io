@@ -74,7 +74,7 @@
               <li><i class="bi bi-check"></i> tutorial PDF atau video</li>
               <li><i class="bi bi-check"></i> pengerjaan 30 hari</li>
               <li><i class="bi bi-check"></i> dp 10%</li>
-              <li><i class="bi bi-check"></i> garansi 30 hari</li>
+              <li><i class="bi bi-check"></i> garansi 14 hari</li>
             </ul>
             <div class="mt-5" style="line-height: .5rem;">
               Rp.
@@ -99,7 +99,7 @@
               <li><i class="bi bi-check"></i> tutorial PDF dan video</li>
               <li><i class="bi bi-check"></i> pengerjaan minimal 30 hari</li>
               <li><i class="bi bi-check"></i> dp 10%</li>
-              <li><i class="bi bi-check"></i> garansi 60 hari</li>
+              <li><i class="bi bi-check"></i> garansi 30 hari</li>
             </ul>
             <div class="mt-5" style="line-height: .5rem;">
               Rp.
@@ -124,7 +124,7 @@
     </section>
     <section class="d-flex align-items-center border-bottom border-black border-2 display-3 text-center" style="background: #F96269;" :style="type == 'md' || type == 'lg' ? 'min-height: 90vh; line-height: 3.5rem;' : ''">
       <div :style="type == 'lg' ? 'padding: 5rem;' : 'padding: 2rem;'">
-        <div style="font-weight: 400;">Bagikan pekerjaan Anda. Seseorang diluar sana membutuhkannya.</div>
+        <div style="font-weight: 400;">Bagikan pekerjaan Anda. Seseorang diluar sana mungkin membutuhkannya.</div>
         <a href="https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" target="_blank" class="text-decoration-none" style="color: inherit;">
           <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Konsultasi</button>
         </a>

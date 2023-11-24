@@ -1,5 +1,5 @@
 <template>
-  <section :class="type == 'lg' ? 'mb-5' : ''">
+  <section :class="type == 'lg' ? '' : ''">
     <div class="row m-0 border-top border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="[type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem; min-height: 50vh;' : 'padding: 0rem 5rem 0rem 5rem; height: 100vh;']">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
@@ -24,6 +24,156 @@
       </div>
     </div>
   </section>
+  
+  <div class="fs-1 p-5 bg-black text-white text-center">Portofolio</div>
+  <section class="border-2 border-black border-top border-bottom p-4 p-sm-5" style="min-height: 100vh;">
+    <div class="row mx-0 row-gap-4">
+      <div class="col-12 col-sm-4 p-0 p-sm-2" :class="type == 'md' || type == 'lg' ? ' border-end border-2 border-black' : ''">
+        <div>
+          <div class="display-5 fw-bold">Anang Prasetyo</div>
+          <div class="fs-3">Fullstack Web Developer</div>
+        </div>
+        <ul class="mt-5 mb-0 list-unstyled fw-light">
+          <li><i class="bi bi-globe"></i> https://anang-prasetyo.github.io/</li>
+          <li><i class="bi bi-envelope"></i> anprasetyo060@gmail.com</li>
+          <li><i class="bi bi-whatsapp"></i> +62 82133938464</li>
+          <li><i class="bi bi-instagram"></i> @pra_anang</li>
+          <li><i class="bi bi-github"></i> anang-prasetyo</li>
+          <li><i class="bi bi-geo-alt"></i> Pucangsawit RT 03 RW 11, Jebres, Surakarta, Jawa Tengah, Indonesia, 57125</li>
+        </ul>
+        <div class="border-bottom border-2 border-black d-inline-block w-50 my-5"></div>
+        <div>
+          <div class="mb-1 fs-5">SKILL</div>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-check"></i> Adobe Illustrator <span class="text-primary">(Mahir)</span></li>
+            <li><i class="bi bi-check"></i> Adobe Photoshop <span class="text-primary">(Mahir)</span></li>
+            <li><i class="bi bi-check"></i> CSS <span class="text-primary">(Mahir)</span></li>
+            <li><i class="bi bi-check"></i> HTML <span class="text-primary">(Mahir)</span></li>
+            <li><i class="bi bi-check"></i> VueJS <span class="text-primary">(Mahir)</span></li>
+            <li><i class="bi bi-check"></i> Firebase <span class="text-success">(Bagus)</span></li>
+            <li><i class="bi bi-check"></i> Git <span class="text-success">(Bagus)</span></li>
+            <li><i class="bi bi-check"></i> Github <span class="text-success">(Bagus)</span></li>
+            <li><i class="bi bi-check"></i> JavaScript <span class="text-success">(Bagus)</span></li>
+            <li><i class="bi bi-check"></i> Sass <span class="text-success">(Bagus)</span></li>
+            <li><i class="bi bi-check"></i> MySQL <span class="text-warning">(Rata-rata)</span></li>
+            <li><i class="bi bi-check"></i> PHP <span class="text-warning">(Rata-rata)</span></li>
+          </ul>
+        </div>
+        <div>
+          <div class="mt-5 mb-1 fs-5">PENDIDIKAN</div>
+          <ul class="list-unstyled d-flex flex-column gap-2">
+            <li style="line-height: 1.3rem;">
+              <div>S1 Teknik Informatika</div>
+              <div>Universitas Muhammadiyah Surakarta</div>
+              <div class="fw-light">
+                <div>2018 - 2023</div>
+                <div>Surakarta, Jawa Tengah</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>SMAN 6 Surakarta</div>
+              <div class="fw-light">
+                <div>2015 - 2018</div>
+                <div>Surakarta, Jawa Tengah</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>SMPN 8 Surakarta</div>
+              <div class="fw-light">
+                <div>2012 - 2015</div>
+                <div>Surakarta, Jawa Tengah</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>SDN Badran Surakarta</div>
+              <div class="fw-light">
+                <div>2006 - 2012</div>
+                <div>Surakarta, Jawa Tengah</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>RA Al-Islam 2 Surakarta</div>
+              <div class="fw-light">
+                <div>2004 - 2006</div>
+                <div>Surakarta, Jawa Tengah</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-sm-8 p-0 px-sm-4">
+        <div>
+          <div class="mb-1 fs-5">BIODATA</div>
+          <table class="table">
+            <tr>
+              <td class="fw-light">Nama Lengkap</td>
+              <td>: Anang Prasetyo</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Tempat Tanggal Lahir</td>
+              <td>: Surakarta, 2 Maret 2000</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Jenis Kelamin</td>
+              <td>: Laki-laki</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Alamat</td>
+              <td>: Pucangsawit RT 03 RW 11, Jebres, Surakarta</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Agama</td>
+              <td>: Islam</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Status</td>
+              <td>: Belum Kawin</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Pekerjaan</td>
+              <td>: Freelancer</td>
+            </tr>
+            <tr>
+              <td class="fw-light">Kewarganegaraan</td>
+              <td>: WNI</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          
+          <div class="mt-5 mb-1 fs-5">PENGALAMAN KERJA</div>
+          <ul class="list-unstyled d-flex flex-column gap-4">
+            <li style="line-height: 1.3rem;">
+              <div>Web Sekolahan - SMK 10 November Sukodono Sragen</div>
+              <div class="fw-light">
+                <div>Oktober - November 2023, Sragen, Jawa Tengah</div>
+                <div class="mt-2">Membangun website sekolahan dari awal dengan fitur utama Penerimaan Peserta Didik Baru (PPDB). Pihak sekolahan menyambut baik website ini dan membuaka kesempatan untuk dapat melanjutkan proyek ini di masa depan.</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>Web Toko Online - Woku.id</div>
+              <div class="fw-light">
+                <div>Agustus - September 2023, Sragen, Jawa Tengah</div>
+                <div class="mt-2">Mengembangkan website administrasi barang pada sebuah toko kelontong Woku.id dengan fitur utama pengelolaan barang yang lebih mudah dan sederhana daripada sebelumnya. Pengembangan mencakup desain dan fitur yang ada pada website ini.</div>
+              </div>
+            </li>
+            <li style="line-height: 1.3rem;">
+              <div>Magang - Diskominfo Karanganyar</div>
+              <div class="fw-light">
+                <div>Mei - Juni 2021, Karanganyar, Jawa Tengah</div>
+                <div class="mt-2">Mengerjakan beberapa tugas yaitu ikut menjadi tim dokumentasi pada beberapa kegiatan rutin Bupati Karanganyar, Melakukan kegiatan administrasi pada website Diskominfo Karanganyar dan Melakukan pemeliharaan perangkat komputer di kantor Diskominfo Karanganyar.</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="mt-5 mb-1 fs-5">HOBI</div>
+          <div class="fw-light">Di waktu luang, saya biasanya melihat inspirasi desain web di media sosial. Selain itu saya juga suka mengikuti tips dan trik dalam menulis koding, pada beberapa kesempatan saya mencoba beberapa trik tersebut pada project saya selanjutnya. Terkadang jika ada teknologi baru yang cukup menarik dan belum saya ketahui, saya bersemangat untuk mempelajari hal baru tersebut.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="container my-5">
     <div class="fs-3 text-center px-4 px-sm-0">Memiliki impian untuk membangun bisnis atau organisasi Anda sendiri di dunia maya? Sekaranglah saatnya untuk mulai membangun bisnis atau organisasi Anda secara online.</div>
   </section>
