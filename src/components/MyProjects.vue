@@ -7,10 +7,11 @@
           <ul v-if="newProject" class="row list-unstyled">
             <li v-for="p, pi in newProject" :key="pi" class="m-auto m-sm-0 col-10 col-sm-6 col-md-4 col-lg-3 py-2">
               <div class="my-2 project">
-                <div v-if="p.url !== ''" class="project-thumb">
+                <div v-if="p.isOpen" class="project-thumb">
                   <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/' + p.url +'.jpg?raw=true'">
                 </div>
-                <div v-else-if="!p.isOpen && p.isShowPoster" class="project-thumb">
+                <div v-else-if="!p.isOpen && p.isShowPoster" class="project-thumb position-relative">
+                  <div class="position-absolute top-50 start-0 translate-middle-y p-2 w-100 text-center bg-body-secondary text-black border-top border-bottom border-2 border-black" style="z-index: 2;">Segera hadir</div>
                   <img :src="'https://github.com/anang-prasetyo/anang-prasetyo.github.io/blob/master/src/assets/img/' + p.url +'.jpg?raw=true'">
                 </div>
                 <div v-else class="project-thumb d-flex align-items-center">
@@ -22,10 +23,8 @@
                     <ul v-if="p.isOpen" class="list-unstyled project-tag d-flex gap-1">
                       <li v-for="pt, pti in newProject[pi].tag" :key="pti" class="text-capitalize">{{ pt }}</li>
                     </ul>
-                    <ul v-else class="list-unstyled project-tag d-flex gap-1">
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>JS</li>
+                    <ul v-else class="list-unstyled d-flex gap-1">
+                      <li class="bg-light" style="width: 5rem; height: 1rem; border-radius: 10px; opacity: .5;"></li>
                     </ul>
                   </div>
                   <div v-if="p.isOpen">
