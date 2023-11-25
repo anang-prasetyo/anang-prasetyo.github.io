@@ -8,13 +8,13 @@
       <div id="pad5" class="d-flex flex-column gap-2 text-center px-4 px-sm-2">
         <div class="display-2" style="font-weight: 400;">Kenalkan diri Anda kepada dunia.</div>
         <div class="lh-sm fs-3">Apakah Anda ingin membangun dari awal atau sekedar ingin mengupgrade website, saya siap membantu mewujudkan impian Anda. Anda tidak perlu tahu tentang teknologi untuk dapat menggunakan web. Anda hanya perlu melakukannya seperti yang Anda lakukan di dunia nyata.</div>
-        <div class="mt-5 d-flex justify-content-center">
+        <!-- <div class="mt-5 d-flex justify-content-center">
           <button class="btn d-inline-flex flex-column align-items-center gap-2 fs-3"><span>Lihat paket</span><i class="d-flex bi bi-arrow-down"></i></button>
-        </div>
+        </div> -->
       </div>
     </section>
-    <section class="my-5">
-      <div class="row m-0 border-top border-bottom border-black border-2">
+    <section class="mt-5">
+      <div class="row m-0 border-top border-black border-2">
         <div id="boxBorderEnd" class="col-12 col-md-6 p-5" style="background: #446BC5;" :style="type == 'lg' ? 'height: 100vh;' : ''">
           <img src="https://raw.githubusercontent.com/anang-prasetyo/anang-prasetyo.github.io/master/src/assets/ilustrasi/jenis%20web%404x.png" alt="" class="img-fluid m-auto d-block" :class="type == 'lg' ? 'h-100' : ''">
         </div>
@@ -31,7 +31,7 @@
         </div>
       </div>
     </section>
-    <section id="paket" class="container-lg mb-5 mt-0 mt-sm-5 text-capitalize">
+    <!-- <section id="paket" class="container-lg mb-5 mt-0 mt-sm-5 text-capitalize">
       <div class="display-1 text-center mb-3 mb-sm-0" style="font-weight: 400;">promo grand opening</div>
       <div class="row m-0 row-gap-3">
         <div class="col-12 col-sm-4 p-0 p-sm-2">
@@ -109,19 +109,18 @@
           </div>
         </div>
       </div>
-    </section>
-    <my-skills class="mt-5" />
+    </section> -->
+    <my-skills class="" />
     <my-projects />
-    <section class="border-bottom border-black border-2" style="background: #829CD9;">
+    <!-- <section class="border-bottom border-black border-2" style="background: #829CD9;">
       <div class="row m-0">
         <div class="col-12 col-sm-8 fs-3">
           <div class="p-4 p-sm-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ullam quam earum? Blanditiis, numquam consequatur? Expedita, aliquam iste, fuga id vitae nemo accusantium cupiditate iusto officiis, perspiciatis odio veritatis ipsa?</p>
           </div>
         </div>
-        <!-- <div class="col-4"></div> -->
       </div>
-    </section>
+    </section> -->
     <section class="d-flex align-items-center border-bottom border-black border-2 display-3 text-center" style="background: #F96269;" :style="type == 'md' || type == 'lg' ? 'min-height: 90vh; line-height: 3.5rem;' : ''">
       <div :style="type == 'lg' ? 'padding: 5rem;' : 'padding: 2rem;'">
         <div style="font-weight: 400;">Bagikan pekerjaan Anda. Seseorang diluar sana mungkin membutuhkannya.</div>
