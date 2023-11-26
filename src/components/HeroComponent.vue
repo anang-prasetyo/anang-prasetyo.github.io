@@ -39,7 +39,7 @@
           <li><i class="bi bi-whatsapp"></i> +62 82133938464</li>
           <li><i class="bi bi-instagram"></i> @pra_anang</li>
           <li><i class="bi bi-github"></i> anang-prasetyo</li>
-          <li><i class="bi bi-geo-alt"></i> Pucangsawit RT 03 RW 11, Jebres, Surakarta, Jawa Tengah, Indonesia, 57125</li>
+          <li><i class="bi bi-geo-alt"></i> Surakarta, Indonesia</li>
         </ul>
         <div class="border-bottom border-2 border-black d-inline-block w-50 my-5"></div>
         <div>
@@ -182,7 +182,7 @@
       <div id="siklus1" class="border border-2 border-black" style="height: 20rem;"></div>
       <div id="cycleMobile" style="z-index: 2;">
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 45%; left: 1.65rem; transform: translate(-50%)rotate(-90deg);">
-          <div>pilih paket dan desain</div>
+          <div>diskusi</div>
         </div>
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; left: 50%; transform: translateX(-50%);">
           <div>pengerjaan</div>
@@ -196,7 +196,7 @@
       </div>
       <div id="cycleDesktop" style="z-index: 2;">
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; left: 20%;">
-          <div>pilih paket dan desain</div>
+          <div>diskusi</div>
         </div>
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; right: 20%;">
           <div>pengerjaan</div>
