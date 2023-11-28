@@ -112,7 +112,7 @@ export default function useDb(){
     },
     {
       name: 'Adobe Illustrator',
-      url: 'Adobe@20Illustrator',
+      url: 'Adobe%20Illustrator',
       level: 5
     },
     {
