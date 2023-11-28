@@ -102,55 +102,78 @@ export default function useDb(){
   const skills = ref([
     {
       name: 'HTML',
+      url: 'HTML',
+      level: 5
+    },
+    {
+      name: 'Adobe Photoshop',
+      url: 'Adobe%20Photoshop',
+      level: 5
+    },
+    {
+      name: 'Adobe Illustrator',
+      url: 'Adobe@20Illustrator',
       level: 5
     },
     {
       name: 'CSS',
+      url: 'CSS',
       level: 5
     },
     {
       name: 'JavaScript',
+      url: 'JavaScript',
       level: 4
     },
     {
       name: 'PHP',
+      url: 'PHP',
       level: 3
     },
     {
       name: 'Bootstrap',
+      url: 'Bootstrap',
       level: 5
     },
     {
       name: 'Vuejs',
+      url: 'Vuejs',
       level: 5
     },
     {
       name: 'MySQL',
+      url: 'MySQL',
       level: 3
     },
     {
       name: 'Firebase',
+      url: 'Firebase',
       level: 4
     },
     {
       name: 'Git',
+      url: 'Git',
       level: 4
     },
     {
       name: 'Github',
+      url: 'Github',
       level: 4
     },
     {
       name: 'Sass',
+      url: 'Sass',
       level: 4
     },
     // {
     //   name: 'Codeigniter',
-    //   level: 3
+    // url: '',   
+    // level: 3
     // },
     // {
     //   name: 'Laravel',
-    //   level: 3
+    // url: '',  
+    // level: 3
     // },
   ])
 
