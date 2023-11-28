@@ -119,7 +119,7 @@
             </tr>
             <tr>
               <td class="fw-light">Alamat</td>
-              <td>: Pucangsawit RT 03 RW 11, Jebres, Surakarta</td>
+              <td>: Surakarta, Indonesia</td>
             </tr>
             <tr>
               <td class="fw-light">Agama</td>
@@ -147,7 +147,7 @@
               <div>Web Sekolahan - SMK 10 November Sukodono Sragen</div>
               <div class="fw-light">
                 <div>20 Oktober - 9 November 2023, Sragen, Jawa Tengah</div>
-                <div class="mt-2">Membangun website sekolahan dari awal dengan fitur utama Penerimaan Peserta Didik Baru (PPDB). Pihak sekolahan menyambut baik website ini dan membuaka kesempatan untuk dapat melanjutkan proyek ini di masa depan.</div>
+                <div class="mt-2">Membangun website sekolahan dari awal dengan fitur utama Penerimaan Peserta Didik Baru (PPDB). Pihak sekolahan menyambut baik website ini dan membuka kesempatan untuk dapat melanjutkan proyek ini di masa depan.</div>
               </div>
             </li>
             <li style="line-height: 1.3rem;">
