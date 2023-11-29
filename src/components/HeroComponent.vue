@@ -3,7 +3,7 @@
     <div class="row m-0 border-top border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="[type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem; min-height: 50vh;' : 'padding: 0rem 5rem 0rem 5rem; height: 100vh;']">
         <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
-        <div class="h3">Fresh graduate Sarjana Komputer.</div>
+        <div class="h3">Fresh graduate Sarjana Informatika.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
         <a href="https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" target="_blank" class="text-decoration-none" style="color: inherit;">
           <button class="btn btn-dark rounded-0 btn-lg px-5 py-3 mt-4">Mulai Diskusi</button>
@@ -63,7 +63,7 @@
           <div class="mt-5 mb-1 fs-5">PENDIDIKAN</div>
           <ul class="list-unstyled d-flex flex-column gap-2">
             <li style="line-height: 1.3rem;">
-              <div>S1 Teknik Informatika</div>
+              <div>S-1 Teknik Informatika</div>
               <div>Universitas Muhammadiyah Surakarta</div>
               <div class="fw-light">
                 <div>2018 - 2023</div>
@@ -127,7 +127,7 @@
             </tr>
             <tr>
               <td class="fw-light">Status</td>
-              <td>: Belum Kawin</td>
+              <td>: Belum Menikah</td>
             </tr>
             <tr>
               <td class="fw-light">Pekerjaan</td>
@@ -161,7 +161,7 @@
               <div>Magang - Diskominfo Karanganyar</div>
               <div class="fw-light">
                 <div>17 Mei - 17 Juni 2021, Karanganyar, Jawa Tengah</div>
-                <div class="mt-2">Mengerjakan beberapa tugas yaitu ikut menjadi tim dokumentasi pada beberapa kegiatan rutin Bupati Karanganyar, Melakukan kegiatan administrasi pada website Diskominfo Karanganyar dan Melakukan pemeliharaan perangkat komputer di kantor Diskominfo Karanganyar.</div>
+                <div class="mt-2">Mengerjakan beberapa tugas yaitu mendesain postingan instagram Diskominfo Karanganyar, ikut menjadi tim dokumentasi pada beberapa kegiatan rutin Bupati Karanganyar, Melakukan kegiatan administrasi pada website Diskominfo Karanganyar dan Melakukan pemeliharaan perangkat lunak dan perangkat keras komputer di kantor Diskominfo Karanganyar.</div>
               </div>
             </li>
           </ul>
@@ -182,16 +182,16 @@
       <div id="siklus1" class="border border-2 border-black" style="height: 20rem;"></div>
       <div id="cycleMobile" style="z-index: 2;">
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 45%; left: 1.65rem; transform: translate(-50%)rotate(-90deg);">
-          <div>diskusi</div>
+          <div>pembayaran</div>
         </div>
         <div class="position-absolute py-2 ps-4 pe-3 cycle-right" style="background-color: #F96269; top: 0; left: 50%; transform: translateX(-50%);">
-          <div>pengerjaan</div>
+          <div>diskusi</div>
         </div>
         <div class="position-absolute ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 45%; right: 1.5rem; transform: translate(50%)rotate(-90deg);">
-          <div>pencocokan data</div>
+          <div>pengerjaan</div>
         </div>
         <div class="position-absolute mb-2 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 50%; transform: translateX(-50%);">
-          <div>pembayaran</div>
+          <div>pencocokan data</div>
         </div>
       </div>
       <div id="cycleDesktop" style="z-index: 2;">
