@@ -44,6 +44,7 @@ onMounted(() => {
   border: 1px solid black;
   border-top: 3px solid black;
   border-left: 3px solid black;
+  text-align: center;
   &-logo{
     background: lavender;
     height: 3rem;

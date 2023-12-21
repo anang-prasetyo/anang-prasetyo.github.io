@@ -126,16 +126,8 @@
               <td>: Islam</td>
             </tr>
             <tr>
-              <td class="fw-light">Status</td>
-              <td>: Belum Menikah</td>
-            </tr>
-            <tr>
               <td class="fw-light">Pekerjaan</td>
               <td>: Freelancer</td>
-            </tr>
-            <tr>
-              <td class="fw-light">Kewarganegaraan</td>
-              <td>: WNI</td>
             </tr>
           </table>
         </div>
@@ -190,7 +182,7 @@
         <div class="position-absolute ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 45%; right: 1.5rem; transform: translate(50%)rotate(-90deg);">
           <div>pengerjaan</div>
         </div>
-        <div class="position-absolute mb-2 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 50%; transform: translateX(-50%);">
+        <div class="position-absolute mb-2 ps-3 pe-4 cycle-left" style="background-color: #F96269; bottom: 0; left: 50%; transform: translateX(-50%); width: 53%;">
           <div>pencocokan data</div>
         </div>
       </div>
