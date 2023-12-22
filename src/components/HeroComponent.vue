@@ -2,7 +2,7 @@
   <section :class="type == 'lg' ? '' : ''">
     <div class="row m-0 border-top border-bottom border-black border-2">
       <div id="boxBorderEnd" class="col-12 col-md-6 text-center text-md-start d-flex flex-column gap-3 justify-content-center align-items-center align-items-sm-start" style="background: #fff;" :style="[type == 'xs' ? 'padding: 0rem 2rem 0rem 2rem; min-height: 50vh;' : 'padding: 0rem 5rem 0rem 5rem; height: 100vh;']">
-        <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Fullstack Web Developer.</span></div>
+        <div class="h1 d-flex flex-column">Halo, Saya Anang. <span class="fw-bold" style="color: #F96269;">Front-end Web Developer.</span></div>
         <div class="h3">Fresh graduate Sarjana Informatika.</div>
         <div class="h3">Saat ini tinggal di Surakarta, Indonesia.</div>
         <a href="https://wa.me/6282133938464?text=Halo%20Anang,%20saya%20ingin%20bertanya%20mengenai%20" target="_blank" class="text-decoration-none" style="color: inherit;">
@@ -25,13 +25,13 @@
     </div>
   </section>
   
-  <div class="fs-1 p-5 bg-black text-white text-center">Portofolio</div>
+  <div class="fs-1 p-5 bg-black text-white text-center">Daftar Riwayat Hidup</div>
   <section class="border-2 border-black border-top border-bottom p-4 p-sm-5" style="min-height: 100vh;">
     <div class="row mx-0 row-gap-4">
       <div class="col-12 col-sm-4 p-0 p-sm-2" :class="type == 'md' || type == 'lg' ? ' border-end border-2 border-black' : ''">
         <div>
           <div class="display-5 fw-bold">Anang Prasetyo</div>
-          <div class="fs-3">Fullstack Web Developer</div>
+          <div class="fs-3">Front-end Web Developer</div>
         </div>
         <ul class="mt-5 mb-0 list-unstyled fw-light">
           <li><i class="bi bi-globe"></i> https://anang-prasetyo.github.io/</li>
