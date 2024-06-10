@@ -16,6 +16,115 @@
       left: 2% !important;
     } 
   }
+  .main-tool-bar {
+    font-size: 2.5rem !important;
+    overflow-x: hidden !important;
+    &--scrolled {
+      font-size: 14px !important;
+      & .tab{
+        display: none !important;
+        & li a{
+          & i{
+          }
+        }
+      }
+      & .title{
+        bottom: 50% !important;
+        transform: translateY(50%);
+        line-height: normal !important;
+      }
+    }
+    & .title{
+      bottom: 50% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%);
+      &-logo{
+        display: none;
+        &--scrolled{
+        }
+      }
+      &--scrolled{
+        left: 5% !important;
+      }
+    }
+    & .tab{
+      display: none !important;
+    }
+    & .pc{
+      &-bg{
+        &-border{
+          border-radius: 0 !important;
+        }
+        &-lamp{
+          &-h{
+            width: 120% !important;
+            &-button{
+              right: 50% !important;
+              transform: translate(50%, -50%) !important;
+              & i{
+              }
+            }
+          }
+          &-v{
+            &-f{
+            }
+          }
+        }
+        &--scrolled{
+          display: none;
+        }
+      }
+      &-light{
+        width: 200% !important;
+        &--scrolled{
+          display: none;
+        }
+      }
+      &-screen{
+        border: none !important;
+        width: 100% !important;
+        height: 83% !important;
+        &--scrolled{
+          display: none;
+        }
+      }
+    }
+  }
+  .logo-svg{
+    height: 4rem !important;
+    left: 50% !important;
+    bottom: 60% !important;
+    transform: translate(-50%, -60%);
+  }
+  .welcome{
+    &-desc{
+      top: 60% !important;
+      left: 50% !important;
+      transform: translate(-50%, -50%);
+      font-size: 20px !important;
+      width: 80% !important;
+      text-align: center;
+      &--scrolled{
+      }
+    }
+  }
+  .home{
+    &-intro{
+      height: 75vh !important;
+      text-align: center;
+      & div{
+        font-size: 16px !important;
+      }
+    }
+    &-keahlian-isi{
+      top: 18vh !important;
+      left: 50% !important;
+      transform: translate(-50%, -25%) !important;
+      & ul{
+        padding-left: 0;
+      }
+    }
+  }
 }
 
 // `md` applies to small devices (landscape phones, less than 768px)

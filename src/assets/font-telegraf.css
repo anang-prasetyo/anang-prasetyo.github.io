@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Telegraf';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-Regular.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-Regular.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-Regular.otf) format('opentype');
+  
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-Ultrabold.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-Ultrabold.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-Ultrabold.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Telegraf';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-Ultralight.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-Ultralight.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-Ultralight.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: light;
+}
+
+/* Oblique */
+@font-face {
+  font-family: 'Telegraf-Oblique';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-RegularOblique.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-RegularOblique.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-RegularOblique.otf) format('opentype');
+  
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf-Oblique';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-UltraboldOblique.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-UltraboldOblique.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-UltraboldOblique.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Telegraf-Oblique';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-UltralightOblique.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-UltralightOblique.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-UltralightOblique.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: light;
+}
+
+/* Slanted */
+@font-face {
+  font-family: 'Telegraf-Slanted';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-RegularSlanted.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-RegularSlanted.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-RegularSlanted.otf) format('opentype');
+  
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Telegraf-Slanted';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-UltraboldSlanted.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-UltraboldSlanted.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-UltraboldSlanted.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Telegraf-Slanted';
+  src: 
+  url(fonts/Telegraf/woff2/PPTelegraf-UltralightSlanted.woff2) format('woff2'),
+  url(fonts/Telegraf/woff/PPTelegraf-UltralightSlanted.woff) format('woff'),
+  url(fonts/Telegraf/otf/PPTelegraf-UltralightSlanted.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: light;
+}

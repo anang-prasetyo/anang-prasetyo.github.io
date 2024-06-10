@@ -1,0 +1,76 @@
++----------------------+
++-------------------+  |
+| flowchart program |  |
++-------------------+  |
++----------------------+
+|
+|
++------------------------------------------
+Bagaimana cara menambahkan konten pada halaman '/docs' ?
+
+1. menambahkan array pada database Docs (file location : script/MyDatabase.js) dengan format :
+    {
+      name: 'berisi nama SUB_MENU, type data String, misal "Vuejs"',
+      chapter: [
+        {
+          name: 'berisi SUB_BAB_MENU, type data String, misal "Membuat aplikasi vue"',
+          lists: ['berisi LANGKAH/POIN_PENTING, type data Array, misal "teknik modular"']
+        },
+      ]
+    }
+2. membuat folder pada direktori '/src/components/docs/ + nama folder SUB_MENU'
+3. membuat file dengan nama komponen pada direktori '/src/components/docs/ + nama folder SUB_MENU + / + nama SUB_BAB_MENU'
+4. membuat folder pada direktori '/src/components/docs/ + nama folder SUB_MENU + /files' untuk menyimpan komponen yang berisi LANGKAH/POIN_PENTING
+5. komponen yang berisi LANGKAH/POIN_PENTING di import pada file no 3
+6. import komponen pada file '/src/router/index.js', 
+    import SUB_BAB_MENU from '../components/docs/ + SUB_MENU + / + SUB_BAB_MENU'
+6. menambahkan routing list children route docs pada file '/src/router/index.js' dengan format:
+    { 
+      path: '/docs',
+      component: DocsView,
+      children: [
+        {
+          path: '/docs/ + SUB_BAB_MENU', // SUB_BAB_MENU ditulis dengan huruf kecil dan tanda penghubung '-', misal "Membuat aplikasi vue" -> "membuat-aplikasi-vue"
+          components: {
+            b: SUB_BAB_MENU
+          }
+        }
+      ]
+    }
+
+
+-------------------------------------------
+Bagaimana template penulisan pada file LANGKAH/POIN_PENTING pada file '/src/components/docs/ + nama folder SUB_MENU + /files + nama LANGKAH/POIN_PENTING' ?
+
+<template>
+  <main>
+    <h2 class="mb-4">LANGKAH/POIN_PENTING</h2>
+    <div class="fs-5">
+      <p> ... </p>
+    </div>
+  </main>
+</template>
+
+
+-------------------------------------------
+Bagaimana template penulisan pada file SUB_BAB_MENU pada file '/src/components/docs/ + nama folder SUB_MENU + / + nama SUB_BAB_MENU' ?
+
+<template>
+  <section>
+    <ul class="list-unstyled doc">
+      <li class="content">
+        <h1>SUB_MENU</h1>
+      </li>
+      <li class="content">
+        <sub-bab-menu></sub-bab-menu>
+      </li>
+      <li class="content">
+        ...
+      </li>
+    </ul>
+  </section>
+</template>
+
+<script setup>
+import SUB_BAB_MENU from "./files/ + SUB_BAB_MENU";
+</script>

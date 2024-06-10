@@ -1,3 +1,15 @@
+@import "../bootstrap/css/bootstrap-utilities.css";
+
+// [data-bs-theme=dark] {
+//   color-scheme: dark;
+//   --bs-body-color: #fff;
+//   --bs-body-color-rgb: 255, 255, 255;
+//   --bs-body-bg: #000;
+//   --bs-body-bg-rgb: 0, 0, 0;
+//   --bs-border-color: #34373a;
+//   --bs-border-color-translucent: rgba(352, 55, 58, 0.15);
+// }
+
 .project-thumb{
   // background: lavender;
   border-radius: inherit;
@@ -12,6 +24,86 @@
 .fs-xs2{
   font-size: .875rem;
 }
+
+.my-badge{
+  background: rgb(200, 200, 200);
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+
+.cursor {
+	position: absolute;
+	background: var(--bs-body-color);
+  filter: invert(1);
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	z-index: 1131;
+	transition: 0.5s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+			0.2s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+	user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+	transform: scale(0.5);
+  &-follower {
+    position: absolute;
+    background: rgba(var(--bs-body-color-rgb), 0.1);
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    z-index: 1131;
+    transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform,
+        0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) opacity;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+    transform: translate(9px, 9px);
+    &--scrolled{
+      filter: none;
+    }
+  }
+  &--scrolled{
+    filter: none;
+  }
+}
+
+.dot-display{
+	$ukuran-dot: 0px;
+	$posisi-dot-x: 94.7%;
+	$posisi-dot-y: 96%;
+	background: black;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+  z-index: 27;
+	top: 0;
+	left: 0;
+	clip-path: circle($ukuran-dot at $posisi-dot-x $posisi-dot-y);
+	transition: clip-path 50ms;
+	mix-blend-mode: difference;
+	filter: invert(1);
+	-webkit-filter: invert(1);
+	&-is{
+		&-open, &-close{
+			transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+			transition: clip-path 1.3s;
+		}
+		&-open {
+			clip-path: circle(200% at 100% 100%);
+			// transition-timing-function: cubic-bezier(1,-0.01,.01,.99);}
+		}
+		&-close {
+			clip-path: circle($ukuran-dot at $posisi-dot-x $posisi-dot-y);
+		}
+	}
+}
+
+.body-color{
+  color: var(--bs-body-color);
+}
+
 
 @keyframes float {
   0%{

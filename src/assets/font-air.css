@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-BlackMono.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-BlackMono.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-BlackMono.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-BlackMonoItalic.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-BlackMonoItalic.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-BlackMonoItalic.otf) format('opentype');
+  
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/Air/woff2/PPAir-ExtraLight.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-ExtraLight.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-ExtraLight.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-ExtraLightMono.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-ExtraLightMono.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-ExtraLightMono.otf) format('opentype');
+  
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/Air/woff2/PPAir-Medium.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-Medium.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-Medium.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/Air/woff2/PPAir-MediumItalic.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-MediumItalic.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-MediumItalic.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-MediumMono.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-MediumMono.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-MediumMono.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-MediumMonoItalic.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-MediumMonoItalic.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-MediumMonoItalic.otf) format('opentype');
+  
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Air Sans';
+  src: 
+  url(fonts/Air/woff2/PPAir-SemiBold.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-SemiBold.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-SemiBold.otf) format('opentype');
+  
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Air Sans Mono';
+  src: 
+  url(fonts/Air/woff2/PPAir-SemiBoldMono.woff2) format('woff2'),
+  url(fonts/Air/woff/PPAir-SemiBoldMono.woff) format('woff'),
+  url(fonts/Air/otf/PPAir-SemiBoldMono.otf) format('opentype');
+  
+  font-weight: 600;
+  font-style: normal;
+}
