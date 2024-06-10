@@ -4,7 +4,6 @@ import './assets/base.css'
 import './assets/main.scss'
 import './assets/responsive.scss'
 import 'animate.css'
-import './assets/locomotive-scroll.css'
 
 import { createApp } from 'vue'
 import App from './App.vue'
