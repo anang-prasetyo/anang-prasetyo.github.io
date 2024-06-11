@@ -247,7 +247,7 @@ import { ScrollToPlugin } from "gsap/dist/ScrollToPlugin"
 import { Draggable } from "gsap/dist/Draggable"
 import { onMounted, ref } from 'vue'
 import useDb from '../script/MyDatabase';
-import Lenis from 'lenis'
+// import Lenis from 'lenis'
 import { useMagnetic } from "../script/MyFunc";
 import ButtonDot from '../components/ButtonDot.vue'
 import LogoSvg from '../components/LogoSvg.vue'
@@ -661,7 +661,7 @@ onMounted(()=> {
   horizontalScroll()
   pinImage(1)
   pinImage(2)
-  lenisScroll()
+  // lenisScroll()
   draggable()
   hideNavOnScroll()
   infiniteMouseWheelAnimation()

@@ -1,5 +1,5 @@
 /* @import './font-air.css'; */
-@import './font-telegraf.css';
+/* @import './font-telegraf.css'; */
 
 :root{
   --color-black: black;
@@ -13,12 +13,13 @@
 }
 
 *:hover, body{ 
-  cursor: none; 
+  /* cursor: none;  */
 }
 body{
   color: black;
-  font-family: 'Telegraf', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* font-family: 'Telegraf', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
   /* font-family: 'Air Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   /* width: 98.8vw; */
   height: 100vh;
   scroll-behavior: smooth;
@@ -27,7 +28,7 @@ body{
 .min-vh-100{min-height: 100vh;}
 .min-vw-100{min-width: 100vw;}
 
-html.lenis, html.lenis body {
+/* html.lenis, html.lenis body {
   height: auto;
 }
 
@@ -45,4 +46,4 @@ html.lenis, html.lenis body {
 
 .lenis.lenis-smooth iframe {
   pointer-events: none;
-}
+} */

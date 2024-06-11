@@ -707,9 +707,9 @@ section{
     & .st1, & .st2{
       line-height: 15px;
       font-size: 3.5rem;
-      font-weight: 700;
+      font-weight: 800;
       min-width: 15px;
-      font-family: 'Telegraf-Slanted';
+      // font-family: 'Telegraf-Slanted';
     }
   }
 }
@@ -732,7 +732,7 @@ section{
     font-size: 20rem;
     font-weight: 800;
     text-wrap: nowrap;
-    font-family: 'Telegraf-Slanted';
+    // font-family: 'Telegraf-Slanted';
   }
   &-img{
     top: 0;
